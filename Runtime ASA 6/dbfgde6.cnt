@@ -1,0 +1,286 @@
+Base dbfgde6.hlp>main
+Title Test
+1 SQL Anywhere Studio Erste Orientierung
+1 Einleitung=id_fg_2@dbfgde6.hlp
+1 Urheberrechtsvermerke =id_fg_3@dbfgde6.hlp>main
+2 Über dieses Handbuch
+2 Einleitung=id_fg_4@dbfgde6.hlp
+2 Über dieses Handbuch =preface@dbfgde6.hlp>main
+3 Konventionen in dieser Dokumentation
+3 Einleitung=documentation-conventions-pref@dbfgde6.hlp
+3 Syntaxkonventionen =synconv@dbfgde6.hlp>main
+3 Grafische Symbole =htgi@dbfgde6.hlp>main
+3 Installierte Dateien =id_fg_9@dbfgde6.hlp>main
+2 TEIL 1 . Erste Schritte
+2 Einleitung=id_fg_10@dbfgde6.hlp
+3 KAPITEL 1.  Einführung in das SQL Anywhere Studio
+3 Einleitung=asaintro@dbfgde6.hlp
+4 Willkommen beim SQL Anywhere Studio
+4 Einleitung=welcome-asaintro@dbfgde6.hlp
+5 Dokumentation zum SQL Anywhere Studio
+5 Einleitung=anywhere-doc-preface@dbfgde6.hlp
+5 Dokumentation auffinden =finding-welcome-asaintro@dbfgde6.hlp>main
+5 Dokumentation zum Adaptive Server Anywhere =id_fg_15@dbfgde6.hlp>main
+5 Dokumentation zum InfoMaker =id_fg_16@dbfgde6.hlp>main
+5 Dokumentation zu jConnect =id_fg_17@dbfgde6.hlp>main
+5 Dokumentation zum PowerDynamo =id_fg_18@dbfgde6.hlp>main
+5 Dokumentation zum Replication Agent =id_fg_19@dbfgde6.hlp>main
+5 Dokumentation zu SQL Remote =id_fg_20@dbfgde6.hlp>main
+5 Dokumentation zum SQL Modeler =id_fg_21@dbfgde6.hlp>main
+5 Sybase Central =id_fg_22@dbfgde6.hlp>main
+5 Unterstützende Dokumentation für Java =id_fg_23@dbfgde6.hlp>main
+3 SQL Anywhere Studio installieren =software-installation-pref@dbfgde6.hlp>main
+4 Adaptive Server Anywhere
+4 Einleitung=adaptive-asaintro@dbfgde6.hlp
+4 Einsatzmöglichkeiten des Adaptive Server Anywhere =id_fg_26@dbfgde6.hlp>main
+4 Die Adaptive Server Produktfamilie =id_fg_27@dbfgde6.hlp>main
+4 Technische Merkmale des Adaptive Server Anywhere =id_fg_28@dbfgde6.hlp>main
+4 Erforderliche Systemausstattung =id_fg_29@dbfgde6.hlp>main
+4 Anforderungen an Netzwerksoftware =id_fg_30@dbfgde6.hlp>main
+4 Der Adaptive Server Anywhere Datenbankserver =database-server-asaintro@dbfgde6.hlp>main
+4 Adaptive Server Anywhere Verwaltungsdienstprogramme =id_fg_32@dbfgde6.hlp>main
+4 Verfügbarkeit der Komponenten =availability-platforms-asaintro@dbfgde6.hlp>main
+4 Adaptive Server Anywhere Programmgruppe =iwpg@dbfgde6.hlp>main
+3 Die Beispieldatenbank =sample-asaintro@dbfgde6.hlp>main
+3 KAPITEL 2.  Begriffe und Konzepte im Zusammenhang mit Datenbanken
+3 Einleitung=concepts@dbfgde6.hlp
+4 Das Datenbankkonzept
+4 Einleitung=database-concepts@dbfgde6.hlp
+4 Bestandteile eines Datenbanksystems =id_fg_38@dbfgde6.hlp>main
+4 Und so paßt alles zusammen =id_fg_39@dbfgde6.hlp>main
+4 SQL und das Datenbankkonzept =sql-database-concepts@dbfgde6.hlp>main
+4 Andere Dateien, die vom Adaptive Server Anywhere verwendet werden =id_fg_41@dbfgde6.hlp>main
+4 Das Konzept der relationalen Datenbank
+4 Einleitung=dbconc@dbfgde6.hlp
+4 Datenbanktabellen =dbtab@dbfgde6.hlp>main
+5 Primärschlüssel und Fremdschlüssel
+5 Einleitung=dbpfk@dbfgde6.hlp
+5 Tabellen haben einen Primärschlüssel =dbpkey@dbfgde6.hlp>main
+5 Die Tabellenbeziehungen werden durch die Fremdschlüssel bestimmt =dbfkey@dbfgde6.hlp>main
+4 Andere Datenbankobjekte =dboth@dbfgde6.hlp>main
+4 Abfragen =id_fg_48@dbfgde6.hlp>main
+4 Andere SQL-Anweisungen =id_fg_49@dbfgde6.hlp>main
+4 Die Systemtabellen =id_fg_50@dbfgde6.hlp>main
+2 TEIL 2 . Produktiv arbeiten mit dem SQL Anywhere Studio
+2 Einleitung=id_fg_51@dbfgde6.hlp
+3 KAPITEL 3.  Verbindung mit dem Datenbankserver erstellen und verwenden
+3 Einleitung=chapter01@dbfgde6.hlp
+3 Der Datenbankserver =about-engines@dbfgde6.hlp>main
+4 Datenbankserver starten
+4 Einleitung=iwstart@dbfgde6.hlp
+4 Beispieldatenbank auf den Windows-Betriebssystemen oder OS/2 starten =id_fg_55@dbfgde6.hlp>main
+4 Beispieldatenbank auf UNIX starten =id_fg_56@dbfgde6.hlp>main
+4 Das Serverfenster =server-window-starting-servertutorial@dbfgde6.hlp>main
+3 Mit der Beispieldatenbank von Interactive SQL aus verbinden =wlogon@dbfgde6.hlp>main
+3 Mit Hilfe von ODBC-Datenquellen verbinden =odbc-servertutorial@dbfgde6.hlp>main
+3 Datenbankserver herunterfahren =shut-down-local-server@dbfgde6.hlp>main
+3 KAPITEL 4.  Datenbankverwaltung mit Sybase Central
+3 Einleitung=scent@dbfgde6.hlp
+3 Sybase Central und Datenbankverwaltung =scover@dbfgde6.hlp>main
+4 Das Sybase Central Hauptfenster
+4 Einleitung=scmain@dbfgde6.hlp
+4 Sybase Central aufrufen =scmnst@dbfgde6.hlp>main
+4 Von Sybase Central aus mit einer Datenbank verbinden =sccd@dbfgde6.hlp>main
+4 Datenbankschema anzeigen =scic@dbfgde6.hlp>main
+4 Eine Tabelle zu einer Datenbank hinzufügen
+4 Einleitung=scat@dbfgde6.hlp
+4 Tabellen erstellen und Spalten hinzufügen in Sybase Central =scaet@dbfgde6.hlp>main
+4 Vorhandene Tabellen mit dem Tabellen-Editor bearbeiten =id_fg_69@dbfgde6.hlp>main
+4 Eine Spalte mit Sybase Central in eine neue Tabelle ziehen =scdct@dbfgde6.hlp>main
+4 Tabellen mit Sybase Central löschen =scdt@dbfgde6.hlp>main
+4 Prozeduren anzeigen und bearbeiten
+4 Einleitung=scap@dbfgde6.hlp
+4 Programmcode von Stored Procedures mit Sybase Central anzeigen =scvp@dbfgde6.hlp>main
+4 Benutzer und Gruppen verwalten
+4 Einleitung=scmu@dbfgde6.hlp
+4 Der Datenbank eine Gruppe hinzufügen =scaug@dbfgde6.hlp>main
+4 Der Datenbank einen Benutzer hinzufügen =scau@dbfgde6.hlp>main
+4 Einen Benutzer einer Gruppe hinzufügen =scauug@dbfgde6.hlp>main
+3 Datenbanken mit Sybase Central sichern =scbu@dbfgde6.hlp>main
+4 Die Online-Hilfe von Sybase Central verwenden
+4 Einleitung=scoh@dbfgde6.hlp
+4 Inhalt der Online-Hilfe verwenden =scohtc@dbfgde6.hlp>main
+4 Index der Online-Hilfe verwenden =scohin@dbfgde6.hlp>main
+4 Text der Online-Hilfe suchen =scohft@dbfgde6.hlp>main
+3 KAPITEL 5.  Interactive SQL verwenden
+3 Einleitung=isqlwin@dbfgde6.hlp
+3 Einführung in Interactive SQL =introduction-isqlwin@dbfgde6.hlp>main
+4 Befehle eingeben
+4 Einleitung=iwcomwin@dbfgde6.hlp
+4 Befehls-Neuaufruf =iwcomrec@dbfgde6.hlp>main
+4 Einen Interactive SQL-Befehl abbrechen =wabort@dbfgde6.hlp>main
+4 Daten anzeigen
+4 Einleitung=iwdisp@dbfgde6.hlp
+4 Im DataWindow blättern =iwscroll@dbfgde6.hlp>main
+4 Funktionstasten
+4 Einleitung=funckey@dbfgde6.hlp
+4 Funktionstasten für UNIX Interactive SQL =unix-function-isqlwin@dbfgde6.hlp>main
+4 Befehlsdateien ausführen
+4 Einleitung=commfil@dbfgde6.hlp
+4 Mehrere Anweisungen eingeben =comedit@dbfgde6.hlp>main
+4 Anweisungen als Befehlsdateien speichern =comcf@dbfgde6.hlp>main
+4 Befehlsdateien ausführen =id_fg_95@dbfgde6.hlp>main
+4 Befehlsdateien mit Parametern =comfilp@dbfgde6.hlp>main
+3 KAPITEL 6.  Willkommen beim InfoMaker
+3 Einleitung=id_fg_97@dbfgde6.hlp
+3 Was Sie mit dem InfoMaker tun können =id_fg_98@dbfgde6.hlp>main
+3 Erste Orientierung mit dem InfoMaker =id_fg_99@dbfgde6.hlp>main
+3 InfoMaker starten =id_fg_100@dbfgde6.hlp>main
+3 Auf die InfoMaker-Painter zugreifen =id_fg_101@dbfgde6.hlp>main
+3 Einblendmenüs und Eigenschaftsfenster verwenden =id_fg_102@dbfgde6.hlp>main
+3 Objekte mit der Maus bearbeiten =id_fg_103@dbfgde6.hlp>main
+3 KAPITEL 7.  Masken mit dem InfoMaker erstellen
+3 Einleitung=id_fg_104@dbfgde6.hlp
+3 Erstellen =id_fg_105@dbfgde6.hlp>main
+3 Vorschau auf die Maske (Maske ausführen) =id_fg_106@dbfgde6.hlp>main
+3 Maske speichern =id_fg_107@dbfgde6.hlp>main
+3 Der Maske Schaltflächen hinzufügen =id_fg_108@dbfgde6.hlp>main
+4 Maske erweitern
+4 Einleitung=id_fg_109@dbfgde6.hlp
+4 Titel hinzufügen =id_fg_110@dbfgde6.hlp>main
+4 Datenhintergrund ändern =id_fg_111@dbfgde6.hlp>main
+4 Schaltflächen verschieben =id_fg_112@dbfgde6.hlp>main
+4 Bericht hinzufügen =id_fg_113@dbfgde6.hlp>main
+3 Die Datenbank mit der Maske aktualisieren =id_fg_114@dbfgde6.hlp>main
+3 KAPITEL 8.  Berichte mit dem InfoMaker erstellen
+3 Einleitung=id_fg_115@dbfgde6.hlp
+3 Basisbericht erstellen =id_fg_116@dbfgde6.hlp>main
+3 Vorschau auf den Bericht =id_fg_117@dbfgde6.hlp>main
+3 Bericht speichern =id_fg_118@dbfgde6.hlp>main
+3 Designumgebung einrichten =id_fg_119@dbfgde6.hlp>main
+3 Sortierung und Gruppierung festlegen =id_fg_120@dbfgde6.hlp>main
+4 Den Bericht gestalten
+4 Einleitung=id_fg_121@dbfgde6.hlp
+4 Objekte neu ausrichten =id_fg_122@dbfgde6.hlp>main
+4 Titel und Datum hinzufügen =id_fg_123@dbfgde6.hlp>main
+4 Seitennummern hinzufügen =id_fg_124@dbfgde6.hlp>main
+4 Summe der Gesamtzahl der Kontaktpersonen hinzufügen =id_fg_125@dbfgde6.hlp>main
+3 Bericht drucken =id_fg_126@dbfgde6.hlp>main
+3 KAPITEL 9.  Datenbanken mit dem SQL Modeler planen
+3 Einleitung=sqlmodeler@dbfgde6.hlp
+3 Einsatzmöglichkeiten des SQL Modelers =what-sqlmodeler@dbfgde6.hlp>main
+4 Beispiel:Datenbank ändern
+4 Einleitung=example-sqlmodeler@dbfgde6.hlp
+4 Ändern 1: Spalte hinzufügen =id_fg_130@dbfgde6.hlp>main
+4 Änderung 2: Tabelle hinzufügen =id_fg_131@dbfgde6.hlp>main
+4 Änderung 3: Eine Referenz mit Hilfe des Dictionarys durchführen =id_fg_132@dbfgde6.hlp>main
+4 Arbeit überprüfen =id_fg_133@dbfgde6.hlp>main
+4 Speichern Sie Ihre Änderungen und erzeugen Sie die neue Datenbank. =id_fg_134@dbfgde6.hlp>main
+3 Weitere Einsatzmöglichkeiten des SQL Modelers =what-else-sqlmodeler@dbfgde6.hlp>main
+3 KAPITEL 10.  Eine dynamische Web-Site mit dem PowerDynamo erstellen
+3 Einleitung=id_fg_136@dbfgde6.hlp
+4 Der PowerDynamo als Anwendungsserver
+4 Einleitung=id_fg_137@dbfgde6.hlp
+4 Ein Blick auf den PowerDynamo =id_fg_138@dbfgde6.hlp>main
+4 Dynamischer Inhalt über HTML hinaus =id_fg_139@dbfgde6.hlp>main
+4 Erste Orientierung mit dem PowerDynamo
+4 Einleitung=id_fg_140@dbfgde6.hlp
+4 Eine ODBC-Datenquelle für die Web-Site erstellen =id_fg_141@dbfgde6.hlp>main
+4 Ein Verbindungsprofil erstellen =id_fg_142@dbfgde6.hlp>main
+4 Verbindung zu asademo.db herstellen =id_fg_143@dbfgde6.hlp>main
+4 PowerDynamo Personal Web Server Zuordnung erstellen =id_fg_144@dbfgde6.hlp>main
+4 Schablone erstellen
+4 Einleitung=id_fg_145@dbfgde6.hlp
+4 Eingebettete Abfragen und Formatierung =id_fg_146@dbfgde6.hlp>main
+4 Mitarbeiterschablone mit einer eingebetteten Abfrage erstellen =id_fg_147@dbfgde6.hlp>main
+4 Den Personal Web Server und einen Web-Browser starten, um die Ausgabe von "Employee.stm" anzuzeigen =id_fg_148@dbfgde6.hlp>main
+4 Ausgabe anzeigen =id_fg_149@dbfgde6.hlp>main
+4 Schablone verbessern
+4 Einleitung=id_fg_150@dbfgde6.hlp
+4 Aufgabe 1: HTML-Informationen und Formatierung verbessern =id_fg_151@dbfgde6.hlp>main
+4 Datenbankänderungen speichern und URL aktualisieren =id_fg_152@dbfgde6.hlp>main
+4 Mit DynaScript arbeiten
+4 Einleitung=id_fg_153@dbfgde6.hlp
+4 DynaScript =id_fg_154@dbfgde6.hlp>main
+5 Der Schablone DynaScript-Informationen hinzufügen
+5 Einleitung=id_fg_155@dbfgde6.hlp
+5 Fehlermeldungen von Skripten =id_fg_156@dbfgde6.hlp>main
+4 Einer Schablone ein Argument übergeben =id_fg_157@dbfgde6.hlp>main
+4 Mit Masken arbeiten
+4 Einleitung=id_fg_158@dbfgde6.hlp
+4 Eine Maske erstellen =id_fg_159@dbfgde6.hlp>main
+4 Eine Schablone erstellen, die eine Abfrage- und Ausgabebearbeitung in DynaScript enthält =id_fg_160@dbfgde6.hlp>main
+3 KAPITEL 11.  Daten mit SQL Remote replizieren
+3 Einleitung=remote@dbfgde6.hlp
+4 Praktische Einführung - Überblick
+4 Einleitung=id_fg_162@dbfgde6.hlp
+4 Ziele dieser praktischen Einführung =id_fg_163@dbfgde6.hlp>main
+4 Konsolidierte Datenbank einrichten
+4 Einleitung=id_fg_164@dbfgde6.hlp
+4 Einen SQL Remote Nachrichtentyp hinzufügen =id_fg_165@dbfgde6.hlp>main
+4 Publikationseigentümer der Datenbank hinzufügen =id_fg_166@dbfgde6.hlp>main
+4 Der Datenbank einen entfernten Benutzer hinzufügen =id_fg_167@dbfgde6.hlp>main
+4 Publikationen und Subskriptionen hinzufügen =id_fg_168@dbfgde6.hlp>main
+4 Entfernte Datenbank einrichten
+4 Einleitung=id_fg_169@dbfgde6.hlp
+4 Bestätigen, daß die Datenbank korrekt erstellt wurde =id_fg_170@dbfgde6.hlp>main
+4 Datenreplikation starten
+4 Einleitung=id_fg_171@dbfgde6.hlp
+4 Daten in die konsolidierte Datenbank eingeben =id_fg_172@dbfgde6.hlp>main
+4 Daten von der konsolidierten Datenbank senden =id_fg_173@dbfgde6.hlp>main
+4 Daten auf der entfernten Datenbank empfangen =id_fg_174@dbfgde6.hlp>main
+4 Überprüfen, ob die Daten angekommen sind =id_fg_175@dbfgde6.hlp>main
+4 Von der entfernten Datenbank auf die konsolidierte Datenbank replizieren =id_fg_176@dbfgde6.hlp>main
+4 Datenbank und Datenbankeinstellungen wiederherstellen
+4 Einleitung=id_fg_177@dbfgde6.hlp
+4 Daten in der Datenbank wiederherstellen =id_fg_178@dbfgde6.hlp>main
+2 TEIL 3 . Grundkenntnisse zu SQL
+2 Einleitung=id_fg_179@dbfgde6.hlp
+3 KAPITEL 12.  Daten aus Datenbanktabellen auswählen
+3 Einleitung=seltut@dbfgde6.hlp
+3 Tabellendaten einsehen =sellook@dbfgde6.hlp>main
+3 Abfrageergebnisse sortieren =selorder@dbfgde6.hlp>main
+3 Tabellenspalten auswählen =selcol@dbfgde6.hlp>main
+3 Tabellenzeilen auswählen =selrow@dbfgde6.hlp>main
+3 Datumsangaben in Abfragen vergleichen =selcomp@dbfgde6.hlp>main
+3 Zusammengesetzte Suchbedingungen in der WHERE-Klausel =selcmpd@dbfgde6.hlp>main
+3 Musterübereinstimmung in Suchbedingungen =selpat@dbfgde6.hlp>main
+3 Zeilen mit übereinstimmendem Klang finden =selsound@dbfgde6.hlp>main
+3 Kurzformen für die Eingabe von Suchbedingungen =selshort@dbfgde6.hlp>main
+3 KAPITEL 13.  Tabellen verbinden
+3 Einleitung=jointab@dbfgde6.hlp
+3 Die Beispieldatenbank =id_fg_191@dbfgde6.hlp>main
+3 Tabellenliste anzeigen =jodisp@dbfgde6.hlp>main
+3 Tabellen mit dem Kreuzprodukt verbinden =jocross@dbfgde6.hlp>main
+3 Join einschränken =jorestr@dbfgde6.hlp>main
+3 Self-Joins =self-join@dbfgde6.hlp>main
+4 Verbindungen von Tabellen
+4 Einleitung=jorelat@dbfgde6.hlp
+4 Zeilen sind durch einen Primärschlüssel gekennzeichnet =joprim@dbfgde6.hlp>main
+4 Tabellen sind durch einen Fremdschlüssel verbunden =jofor@dbfgde6.hlp>main
+4 Join-Operatoren
+4 Einleitung=joop@dbfgde6.hlp
+4 Tabellen mit Hilfe eines Schlüssel-Joins verbinden =jokeyj@dbfgde6.hlp>main
+4 Tabellen mit natürlichen Joins verknüpfen =jonatj@dbfgde6.hlp>main
+3 KAPITEL 14.  Aggregatdaten anfordern
+3 Einleitung=agdata@dbfgde6.hlp
+3 Einführung in Aggregatfunktionen =agintro@dbfgde6.hlp>main
+3 Mit Aggregatfunktionen gruppierte Daten anfordern =aggroup@dbfgde6.hlp>main
+3 Gruppen einschränken =agrestr@dbfgde6.hlp>main
+3 KAPITEL 15.  Datenbank aktualisieren
+3 Einleitung=updatdb@dbfgde6.hlp
+3 Einer Tabelle Zeilen hinzufügen =upadd@dbfgde6.hlp>main
+3 Zeilen in einer Tabelle ändern =upmod@dbfgde6.hlp>main
+3 Änderungen rückgängig machen =upcancel@dbfgde6.hlp>main
+3 Änderungen festschreiben =upcommit@dbfgde6.hlp>main
+3 Zeilen löschen =updel@dbfgde6.hlp>main
+4 Gültigkeitsprüfung
+4 Einleitung=integr@dbfgde6.hlp
+4 Redundante Daten einfügen =uperdup@dbfgde6.hlp>main
+4 Falsche Werte eingeben =uperinc@dbfgde6.hlp>main
+4 Fehler bei DELETE und UPDATE =uperdel@dbfgde6.hlp>main
+3 KAPITEL 16.  Einführung in Ansichten
+3 Einleitung=views@dbfgde6.hlp
+3 Ansicht definieren =vwdv@dbfgde6.hlp>main
+3 Ansichten aus Sicherheitsgründen verwenden =vwsc@dbfgde6.hlp>main
+3 KAPITEL 17.  Einführung in Unterabfragen
+3 Einleitung=subqry@dbfgde6.hlp
+3 Verwendung von Unterabfragen vorbereiten =subintro@dbfgde6.hlp>main
+3 Eine einfache Unterabfrage =subsimp@dbfgde6.hlp>main
+3 Vergleiche mit Unterabfragen =subcomp@dbfgde6.hlp>main
+3 Unterabfragen anstelle von Joins verwenden =subinjo@dbfgde6.hlp>main
+3 KAPITEL 18.  Systemtabellen
+3 Einleitung=st@dbfgde6.hlp
+3 Tabelle SYSCATALOG =spcat@dbfgde6.hlp>main
+3 Tabelle SYSCOLUMNS =spcol@dbfgde6.hlp>main
+3 Weitere Systemtabellen =spother@dbfgde6.hlp>main

@@ -1,0 +1,550 @@
+Base dbsrde6.hlp>main
+Title Test
+1 Datenreplikation mit SQL Remote
+1 Einleitung=id_sr_2@dbsrde6.hlp
+1 Urheberrechtsvermerke =id_sr_3@dbsrde6.hlp>main
+2 Über dieses Handbuch
+2 Einleitung=id_sr_4@dbsrde6.hlp
+2 Über dieses Handbuch =id_sr_5@dbsrde6.hlp>main
+3 Konventionen in dieser Dokumentation
+3 Einleitung=documentation-conventions-pref@dbsrde6.hlp
+3 Syntaxkonventionen =synconv@dbsrde6.hlp>main
+3 Grafische Symbole =htgi@dbsrde6.hlp>main
+3 Installierte Dateien =id_sr_9@dbsrde6.hlp>main
+2 Die Beispieldatenbank =id_sr_10@dbsrde6.hlp>main
+2 TEIL 1 . Einführung in SQL Remote
+2 Einleitung=id_sr_11@dbsrde6.hlp
+3 KAPITEL 1.  Willkommen bei SQL Remote
+3 Einleitung=isqlintr@dbsrde6.hlp
+4 Über SQL Remote
+4 Einleitung=about-sql-anywhere@dbsrde6.hlp
+4 Unterstützte Plattformen und Umgebungen =id_sr_14@dbsrde6.hlp>main
+4 Das mobile Intranet =id_sr_15@dbsrde6.hlp>main
+4 Über dieses Handbuch
+4 Einleitung=inatm@dbsrde6.hlp
+4 In diesem Handbuch behandelte Plattformen und Produkte =id_sr_17@dbsrde6.hlp>main
+4 Produktinstallation =inprin@dbsrde6.hlp>main
+3 KAPITEL 2.  Konzepte zur Replikation mit SQL Remote
+3 Einleitung=sr-concepts@dbsrde6.hlp
+4 Einführung in die Datenreplikation
+4 Einleitung=wrintr@dbsrde6.hlp
+4 Vorteile der Datenreplikation =id_sr_21@dbsrde6.hlp>main
+4 Herausforderungen für Replikationstechnologien =id_sr_22@dbsrde6.hlp>main
+4 Die Replikationstechnologien von Sybase =id_sr_23@dbsrde6.hlp>main
+4 Sybase SQL Remote =id_sr_24@dbsrde6.hlp>main
+4 Konzepte für SQL Remote
+4 Einleitung=wrconc@dbsrde6.hlp
+4 Konsolidierte und entfernte Datenbanken =id_sr_26@dbsrde6.hlp>main
+4 Hierarchische Datenbankkonfigurationen =id_sr_27@dbsrde6.hlp>main
+4 Replikation in zwei Richtungen =id_sr_28@dbsrde6.hlp>main
+4 Nachrichtenbasierte Replikation =id_sr_29@dbsrde6.hlp>main
+4 Komponenten von SQL Remote
+4 Einleitung=required-components@dbsrde6.hlp
+4 Der Datenserver =id_sr_31@dbsrde6.hlp>main
+4 Client-Anwendungen =id_sr_32@dbsrde6.hlp>main
+4 Der Nachrichten-Agent =id_sr_33@dbsrde6.hlp>main
+4 Nachrichtensystem-Client =id_sr_34@dbsrde6.hlp>main
+3 Publikationen und Subskriptionen =pubs-and-subs@dbsrde6.hlp>main
+3 Merkmale von SQL Remote =wrfeat@dbsrde6.hlp>main
+4 Einige Beispielinstallationen
+4 Einleitung=wrapp@dbsrde6.hlp
+4 Replikation vom Server zum Laptop für mobile Mitarbeiterstäbe =wrmobile@dbsrde6.hlp>main
+4 Replikation von Server zu Server zwischen Büros =wroffice@dbsrde6.hlp>main
+3 KAPITEL 3.  Einrichten von SQL Remote
+3 Einleitung=sr-setup@dbsrde6.hlp
+3 Einrichten - Überblick =srs-overview@dbsrde6.hlp>main
+4 Ihren Adaptive Server Enterprise Server vorbereiten
+4 Einleitung=srd-preparing@dbsrde6.hlp
+4 Sicherstellen, daß die TEMPDB groß genug ist =srs-tempdb@dbsrde6.hlp>main
+4 SQL Remote in eine Datenbank mittels Sybase Central installieren =id_sr_44@dbsrde6.hlp>main
+5 Befehlszeilen-Installation der SQL Remote Systemobjekte
+5 Einleitung=id_sr_45@dbsrde6.hlp
+5 Die SQL Remote-Systemobjekte =id_sr_46@dbsrde6.hlp>main
+4 Befehlszeilen-Installation der Stable Queue =id_sr_47@dbsrde6.hlp>main
+3 Installation von SQL Remote entfernen =uninstalling-sql-remote@dbsrde6.hlp>main
+3 SQL Remote für den Adaptive Server Enterprise umstellen =upgrading-sql-remote@dbsrde6.hlp>main
+3 KAPITEL 4.  Eine praktische Einführung für Benutzer des Adaptive Server Anywhere
+3 Einleitung=sra-tut@dbsrde6.hlp
+4 Überblick über die praktische Einführung
+4 Einleitung=sra-tut-overview@dbsrde6.hlp
+4 Ziel der praktischen Einführung =id_sr_52@dbsrde6.hlp>main
+4 Die Datenbank =id_sr_53@dbsrde6.hlp>main
+4 Replikationsziele =id_sr_54@dbsrde6.hlp>main
+4 Sybase Central oder Befehlszeilen-Dienstprogramme =id_sr_55@dbsrde6.hlp>main
+4 Eine praktische Einführung mit Sybase Central
+4 Einleitung=sra-tut-setup-sc@dbsrde6.hlp
+4 Die praktische Einführung zur Replikation mit Sybase Central vorbereiten =sra-tut-prepare-sc@dbsrde6.hlp>main
+4 Eine konsolidierte Datenbank einrichten
+4 Einleitung=wrcd@dbsrde6.hlp
+4 Fügen Sie einen SQL Remote Nachrichtentyp hinzu =wrcdcf@dbsrde6.hlp>main
+4 Fügen Sie den Publikationseigentümer und den entfernten Benutzer der Datenbank hinzu. =wrcdgr@dbsrde6.hlp>main
+4 Publikationen und Subskriptionen hinzufügen =wrcdps@dbsrde6.hlp>main
+3 Die entfernte Datenbank in Sybase Central einrichten =wrsr@dbsrde6.hlp>main
+4 Eine praktische Einführung mit Interactive SQL und DBXTRACT
+4 Einleitung=wrset2@dbsrde6.hlp
+4 Die praktische Einführung für die Replikation vorbereiten =wrpr2@dbsrde6.hlp>main
+4 Die konsolidierte Datenbank einrichten
+4 Einleitung=wrcd2@dbsrde6.hlp
+4 Einen SQL Remote Nachrichtentyp erstellen =wrcdcf2@dbsrde6.hlp>main
+4 PUBLISH- und REMOTE-Berechtigungen für die konsolidierte Datenbank erteilen =wrcdgr2@dbsrde6.hlp>main
+4 Publikationen und Subskription erstellen =wrcdps2@dbsrde6.hlp>main
+4 Die entfernte Datenbank einrichten
+4 Einleitung=wrsr2@dbsrde6.hlp
+4 Die entfernte Datenbankinformation extrahieren =wrrdcd2@dbsrde6.hlp>main
+4 Die entfernte Datenbankinformation laden =wrrdlf2@dbsrde6.hlp>main
+4 Datenreplikation starten
+4 Einleitung=sra-tut-start-rep@dbsrde6.hlp
+4 Geben Sie Daten in die konsolidierte Datenbank ein. =id_sr_73@dbsrde6.hlp>main
+4 Daten von der konsolidierten Datenbank aus versenden =sra-tut-send@dbsrde6.hlp>main
+4 Nachrichten in der entfernten Datenbank empfangen =sra-tut-received-remote@dbsrde6.hlp>main
+4 Von der entfernten Datenbank zur konsolidierten Datenbank replizieren =sra-tut-rep-to-con@dbsrde6.hlp>main
+3 Eine Beispiel-Publikation =wrsp@dbsrde6.hlp>main
+3 KAPITEL 5.  Eine praktische Einführung für Benutzer des Adaptive Server Enterprise
+3 Einleitung=sr-tutorial@dbsrde6.hlp
+4 Einleitung
+4 Einleitung=srt-introduction@dbsrde6.hlp
+4 Ziel der praktischen Einführung =id_sr_80@dbsrde6.hlp>main
+4 Die Datenbank =ss-the-database@dbsrde6.hlp>main
+4 Replikationsziele =id_sr_82@dbsrde6.hlp>main
+4 Einrichten von SQL Remote mit Sybase Central
+4 Einleitung=srt-sql-central@dbsrde6.hlp
+4 Erste Schritte =id_sr_84@dbsrde6.hlp>main
+4 Konsolidierte Datenbank einrichten
+4 Einleitung=srsc-setup-consolidated@dbsrde6.hlp
+4 Fügen Sie einen SQL Remote Nachrichtentyp hinzu =id_sr_86@dbsrde6.hlp>main
+4 Erstellen Sie die erforderlichen Benutzer und Berechtigungen =id_sr_87@dbsrde6.hlp>main
+4 Erstellen Sie die Publikation und die Subskription =id_sr_88@dbsrde6.hlp>main
+3 Die entfernte Datenbank in Sybase Central einrichten =id_sr_89@dbsrde6.hlp>main
+4 Eine praktische Einführung unter Verwendung von isql und ssxtract
+4 Einleitung=srt-command-line@dbsrde6.hlp
+4 Erste Schritte =id_sr_91@dbsrde6.hlp>main
+4 Konsolidierte Datenbank einrichten
+4 Einleitung=srsi-setup-consolidated@dbsrde6.hlp
+4 Nachrichtenverbindungen und Adressen erstellen =id_sr_93@dbsrde6.hlp>main
+4 Erstellen Sie die erforderlichen Benutzer und Berechtigungen =id_sr_94@dbsrde6.hlp>main
+4 Erstellen Sie die Publikation und die Subskription =id_sr_95@dbsrde6.hlp>main
+4 Die entfernte Datenbank extrahieren =id_sr_96@dbsrde6.hlp>main
+4 Datenreplikation starten
+4 Einleitung=srs-tut-start-rep@dbsrde6.hlp
+4 Geben Sie Daten in die konsolidierte Datenbank ein. =wrrdsd@dbsrde6.hlp>main
+4 Daten von der konsolidierten Datenbank aus versenden =id_sr_99@dbsrde6.hlp>main
+4 Nachrichten in der entfernten Datenbank empfangen =id_sr_100@dbsrde6.hlp>main
+4 Von der entfernten Datenbank zur konsolidierten Datenbank replizieren =id_sr_101@dbsrde6.hlp>main
+2 TEIL 2 . Replikationsplanung für SQL Remote
+2 Einleitung=id_sr_102@dbsrde6.hlp
+3 KAPITEL 6.  Planungsgrundsätze bei SQL Remote
+3 Einleitung=sr-design-setup@dbsrde6.hlp
+4 Planungsüberblick
+4 Einleitung=srd-overview@dbsrde6.hlp
+4 Kompatibilität der Datenbanken sicherstellen =id_sr_105@dbsrde6.hlp>main
+4 Kompatible Sortierreihenfolge und Zeichensätze verwenden =id_sr_106@dbsrde6.hlp>main
+4 Wie Anweisungen repliziert werden
+4 Einleitung=wrss@dbsrde6.hlp
+4 Replikation von Einfügungen und Löschungen =wrid@dbsrde6.hlp>main
+4 Replikation von Aktualisierungen =wrud@dbsrde6.hlp>main
+4 Replikation von Prozeduren =wrpt@dbsrde6.hlp>main
+4 Replikation von Triggern =wrtrig@dbsrde6.hlp>main
+4 Replikation von Datendefinitions-Anweisungen =wrddl@dbsrde6.hlp>main
+4 Replikation von "Blobs" =replication-of-long-values@dbsrde6.hlp>main
+3 Wer bekommt was? =who-gets-what@dbsrde6.hlp>main
+4 Replikationsfehler und Konflikte
+4 Einleitung=sra-error-overview@dbsrde6.hlp
+4 Replikationsfehler =id_sr_116@dbsrde6.hlp>main
+4 Replikationskonflikte =id_sr_117@dbsrde6.hlp>main
+4 SQL-Fehler protokollieren =id_sr_118@dbsrde6.hlp>main
+3 KAPITEL 7.  SQL Remote Planung für Adaptive Server Anywhere
+3 Einleitung=sra-design@dbsrde6.hlp
+3 Planungsüberblick =srad-overview@dbsrde6.hlp>main
+4 Publikationen erstellen
+4 Einleitung=sra-simple-pubications@dbsrde6.hlp
+4 Publikationen für Adaptive Server Anywhere mit Sybase Central erstellen =id_sr_122@dbsrde6.hlp>main
+4 Eine gesamte Tabelle publizieren =id_sr_123@dbsrde6.hlp>main
+4 Einige Spalten einer Tabelle publizieren =id_sr_124@dbsrde6.hlp>main
+4 Eine Reihe von Tabellen publizieren =wrpbst@dbsrde6.hlp>main
+5 Einige Zeilen aus einer Tabelle publizieren
+5 Einleitung=sra-publishing-rows@dbsrde6.hlp
+5 Eine Teilmenge von Zeilen mit der WHERE-Klausel publizieren =wrpbwh@dbsrde6.hlp>main
+5 Eine Teilmenge von Zeilen mit dem Subskriptionsausdruck publizieren =wrpbxp@dbsrde6.hlp>main
+4 Publikationen löschen =wrpbap@dbsrde6.hlp>main
+4 Hinweise zu Publikationen =wrpbnp@dbsrde6.hlp>main
+4 Publikationsplanung für Adaptive Server Anywhere
+4 Einleitung=sra-designing-pubs@dbsrde6.hlp
+4 Planungsfragen - Überblick =id_sr_132@dbsrde6.hlp>main
+4 Bedingungen für gültige Artikel =sra-valid-articles@dbsrde6.hlp>main
+4 Planungstips zur Verbesserung der Performance =performance-publication-sra-design@dbsrde6.hlp>main
+4 Tabellen partitionieren, die den Subskriptionsausdruck nicht enthalten
+4 Einleitung=sra-subquery@dbsrde6.hlp
+4 Das "Contact"-Beispiel =id_sr_136@dbsrde6.hlp>main
+4 Die "Customer"-Tabelle partitionieren ("Contact"-Beispiel) =id_sr_137@dbsrde6.hlp>main
+4 Die "Contact"-Tabelle partitionieren ("Contact"-Beispiel) =id_sr_138@dbsrde6.hlp>main
+4 Territoriale Neuaufteilung ("Contact"-Beispiel) =territory-realignment-subquery@dbsrde6.hlp>main
+4 Zeilen in mehreren Subskriptionen gemeinsam nutzen
+4 Einleitung=sra-sharing@dbsrde6.hlp
+5 Das "Policy"-Beispiel
+5 Einleitung=id_sr_141@dbsrde6.hlp
+5 Die Publikation =id_sr_142@dbsrde6.hlp>main
+4 Territoriale Neuaufteilung in einer Viele-zu-Viele-Beziehung =reassigning-3@dbsrde6.hlp>main
+4 Die "Subscribe_by_remote"-Option in Viele-zu-Viele-Beziehungen verwenden =using-subscribe-by-remote@dbsrde6.hlp>main
+4 Konflikte lösen
+4 Einleitung=sra-update-conflicts@dbsrde6.hlp
+4 Wie SQL Remote Konflikte behandelt =sra-handling-conflicts@dbsrde6.hlp>main
+4 Die Konfliktlösung implementieren =sra-implementing-conflict-resolution@dbsrde6.hlp>main
+4 Konfliktlösungs-Trigger verwenden =wrchrt@dbsrde6.hlp>main
+5 Beispiele zur Konfliktlösung
+5 Einleitung=wrchex@dbsrde6.hlp
+5 Datumskonflikte auflösen =id_sr_150@dbsrde6.hlp>main
+5 Inventurkonflikte lösen =id_sr_151@dbsrde6.hlp>main
+5 Konflikte protokollieren =id_sr_152@dbsrde6.hlp>main
+4 Vermeidung von Fehlern in der referentiellen Integrität planen =sra-avoid-ref-integ@dbsrde6.hlp>main
+4 Trigger planen, um Fehler zu vermeiden =wrdppt@dbsrde6.hlp>main
+4 Eindeutige Primärschlüssel sicherstellen
+4 Einleitung=sra-ensuring-unique-primary-keys@dbsrde6.hlp
+4 Der Primärschlüssel-Pool =id_sr_156@dbsrde6.hlp>main
+4 Den Primärschlüssel-Pool replizieren =id_sr_157@dbsrde6.hlp>main
+4 Den Primärschlüssel-Pool an- und nachfüllen =id_sr_158@dbsrde6.hlp>main
+4 Neue Kunden hinzufügen =id_sr_159@dbsrde6.hlp>main
+4 Primärschlüssel-Pool - Zusammenfassung =id_sr_160@dbsrde6.hlp>main
+3 Subskriptionen erstellen =sra-set-subs@dbsrde6.hlp>main
+3 KAPITEL 8.  SQL Remote Planung für den Adaptive Server Enterprise
+3 Einleitung=srs-design@dbsrde6.hlp
+3 Planungsüberblick =srsd-overview@dbsrde6.hlp>main
+4 Publikationen erstellen
+4 Einleitung=srd-simple-pubications@dbsrde6.hlp
+4 Publikationen für Adaptive Server Enterprise mit Sybase Central erstellen =id_sr_165@dbsrde6.hlp>main
+4 Artikel mit ganzen Tabellen erstellen =id_sr_166@dbsrde6.hlp>main
+4 Artikel erstellen, die einige der Spalten einer Tabelle enthalten =id_sr_167@dbsrde6.hlp>main
+5 Artikel erstellen, die einige der Zeilen einer Tabelle enthalten
+5 Einleitung=srs-publishing-rows@dbsrde6.hlp
+5 Einen Artikel mit einer WHERE-Klausel erstellen =id_sr_169@dbsrde6.hlp>main
+5 Einen Artikel mit einer Subskriptionsspalte erstellen =id_sr_170@dbsrde6.hlp>main
+4 Hinweise zu Artikeln =id_sr_171@dbsrde6.hlp>main
+4 Publikationsplanung für den Adaptive Server Enterprise
+4 Einleitung=srsd-designing-publications@dbsrde6.hlp
+4 Planungsfragen - Überblick =id_sr_173@dbsrde6.hlp>main
+4 Bedingungen für gültige Artikel =srs-valid-articles@dbsrde6.hlp>main
+4 Tabellen partitionieren, die die Subskriptionsspalte nicht enthalten
+4 Einleitung=srs-partitioning@dbsrde6.hlp
+4 Das "Contact"-Beispiel =id_sr_176@dbsrde6.hlp>main
+4 Territoriale Neuaufteilung ("Contact"-Beispiel) =srs-territory-realignment-contact@dbsrde6.hlp>main
+4 Die "Customer"-Tabelle partitionieren ("Contact"-Beispiel) =id_sr_178@dbsrde6.hlp>main
+4 Eine Subskriptionslisten-Spalte der "Contact"-Tabelle hinzufügen =id_sr_179@dbsrde6.hlp>main
+4 Die Subskriptionslisten-Spalte aufrechterhalten =id_sr_180@dbsrde6.hlp>main
+4 Zeilen in mehreren Subskriptionen gemeinsam nutzen
+4 Einleitung=srs-sharing@dbsrde6.hlp
+5 Das "Policy"-Beispiel
+5 Einleitung=id_sr_182@dbsrde6.hlp
+5 Das Problem lösen =id_sr_183@dbsrde6.hlp>main
+5 Die Publikation =id_sr_184@dbsrde6.hlp>main
+4 Die Subskriptionslisten-Spalte aufrechterhalten =id_sr_185@dbsrde6.hlp>main
+4 Die "Subscribe_by_remote"-Option in Viele-zu-Viele-Beziehungen verwenden =srs-using-subscribe-by-remote@dbsrde6.hlp>main
+4 Konflikte lösen
+4 Einleitung=srs-update-conflicts@dbsrde6.hlp
+4 Wie SQL Remote Konflikte behandelt =srs-handling-conflicts@dbsrde6.hlp>main
+4 Die Konfliktlösung implementieren =srs-implementing-conflict-resolution@dbsrde6.hlp>main
+4 Ein erstes Konfliktlösungsbeispiel =a-first-conflict-resolution-example@dbsrde6.hlp>main
+4 Ein zweites Konfliktlösungsbeispiel =id_sr_191@dbsrde6.hlp>main
+4 Vermeidung von Fehlern in der referentiellen Integrität planen =srs-avoid-ref-integ@dbsrde6.hlp>main
+4 Eindeutige Primärschlüssel sicherstellen
+4 Einleitung=srs-ensuring-unique-primary-keys@dbsrde6.hlp
+4 Der Primärschlüssel-Pool =id_sr_194@dbsrde6.hlp>main
+4 Den Primärschlüssel-Pool replizieren =id_sr_195@dbsrde6.hlp>main
+4 Den Primärschlüssel-Pool an- und nachfüllen =id_sr_196@dbsrde6.hlp>main
+4 Neue Kunden hinzufügen =id_sr_197@dbsrde6.hlp>main
+4 Den Primärschlüssel-Pool testen =id_sr_198@dbsrde6.hlp>main
+4 Primärschlüssel-Pool - Zusammenfassung =id_sr_199@dbsrde6.hlp>main
+3 Subskriptionen erstellen =srs-creating-subscriptions@dbsrde6.hlp>main
+2 TEIL 3 . SQL Remote verwalten
+2 Einleitung=id_sr_201@dbsrde6.hlp
+3 KAPITEL 9.  Datenbanken einführen und synchronisieren
+3 Einleitung=sr-deploy@dbsrde6.hlp
+3 Systemeinführung - Überblick =sr-deployment-overview@dbsrde6.hlp>main
+4 Vor der Systemeinführung testen
+4 Einleitung=srd-test-before-deploy@dbsrde6.hlp
+4 Änderungen, die an einem ausführenden System zu vermeiden sind =id_sr_205@dbsrde6.hlp>main
+4 Datenbanken synchronisieren
+4 Einleitung=sr-synch@dbsrde6.hlp
+4 Gemischte Betriebssysteme und Datenbank-Extraktion =id_sr_207@dbsrde6.hlp>main
+4 Hinweise zur Synchronisation und Extraktion =sra-sync-notes@dbsrde6.hlp>main
+4 Das Extraktionsdienstprogramm verwenden
+4 Einleitung=sr-extract-util@dbsrde6.hlp
+4 Eine Datenbank aus den Relaod-Dateien erstellen =id_sr_210@dbsrde6.hlp>main
+4 Bevor Sie eine Datenbank extrahieren =id_sr_211@dbsrde6.hlp>main
+4 Das Extraktionsdienstprogramm von Sybase Central aus verwenden =id_sr_212@dbsrde6.hlp>main
+4 Eine effiziente Extraktionsprozedur planen =sr-custom-extract@dbsrde6.hlp>main
+4 Einschränkungen bei der Verwendung des Extraktionsdienstprogramms =sra-extract-limits@dbsrde6.hlp>main
+5 Das Extraktionsdienstprogramm für den Adaptive Server Enterprise verwenden
+5 Einleitung=using-ssxtract@dbsrde6.hlp
+5 Funktionen des Adaptive Server Enterprise, die im Adaptive Server Anywhere nicht unterstützt werden =id_sr_216@dbsrde6.hlp>main
+5 Die Systemtabellen anpassen =id_sr_217@dbsrde6.hlp>main
+3 Daten über ein Nachrichtensystem synchronisieren =sra-sync-msg@dbsrde6.hlp>main
+3 KAPITEL 10.  SQL Remote verwalten
+3 Einleitung=sr-admin@dbsrde6.hlp
+3 Verwaltung - Überblick =wras@dbsrde6.hlp>main
+4 SQL Remote Berechtigungen verwalten
+4 Einleitung=sr-managing-perms@dbsrde6.hlp
+4 PUBLISH-Berechtigungen erteilen und entziehen =id_sr_222@dbsrde6.hlp>main
+5 REMOTE- und CONSOLIDATE-Berechtigungen erteilen und entziehen
+5 Einleitung=wrmpse@dbsrde6.hlp
+5 REMOTE-Berechtigungen erteilen =id_sr_224@dbsrde6.hlp>main
+5 Eine Sendefrequenz bestimmen =selecting-a-send-frequency@dbsrde6.hlp>main
+5 CONSOLIDATE-Berechtigungen erteilen =id_sr_226@dbsrde6.hlp>main
+5 REMOTE- und CONSOLIDATE-Berechtigungen entziehen =id_sr_227@dbsrde6.hlp>main
+4 Berechtigungen in vielstufigen Installationen zuordnen =id_sr_228@dbsrde6.hlp>main
+4 Nachrichtentypen verwenden
+4 Einleitung=srd-selecting-message@dbsrde6.hlp
+5 Mit Nachrichtentypen arbeiten
+5 Einleitung=sr-message-types@dbsrde6.hlp
+5 Sybase Central und Nachrichtentypen =id_sr_231@dbsrde6.hlp>main
+5 Befehle, um mit Nachrichtentypen zu arbeiten =id_sr_232@dbsrde6.hlp>main
+5 Nachrichtentyp-Steuerungsparameter einstellen =message-link-parameters@dbsrde6.hlp>main
+5 Das Nachrichtensystem der gemeinsamen Dateibenutzung (FILE)
+5 Einleitung=sr-file@dbsrde6.hlp
+5 FILE-Nachrichten-Steuerungsparameter =id_sr_235@dbsrde6.hlp>main
+5 Das ftp-Nachrichtensystem
+5 Einleitung=ftp-message-system@dbsrde6.hlp
+5 FTP-Nachrichten-Steuerungsparameter =id_sr_237@dbsrde6.hlp>main
+5 Das SMTP-Nachrichtensystem
+5 Einleitung=sr-smtp@dbsrde6.hlp
+5 SMTP/POP-Adressen gemeinsam nutzen =id_sr_239@dbsrde6.hlp>main
+5 SMTP-Nachrichten-Steuerungsparameter =id_sr_240@dbsrde6.hlp>main
+5 Das MAPI-Nachrichtensystem
+5 Einleitung=sr-mapi@dbsrde6.hlp
+5 MAPI-Nachrichten-Steuerungsparameter =id_sr_242@dbsrde6.hlp>main
+5 Das VIM-Nachrichtensystem
+5 Einleitung=sr-vim@dbsrde6.hlp
+5 VIM-Nachrichten-Steuerungsparameter =id_sr_244@dbsrde6.hlp>main
+4 Den Nachrichtenagenten ausführen
+4 Einleitung=wrma@dbsrde6.hlp
+4 Der Betrieb als Anweisungsfolge und der kontinuierliche Modus beim Nachrichten-Agenten =id_sr_246@dbsrde6.hlp>main
+4 Vom Nachrichten-Agenten verwendete Verbindungen =connections-running-sr-admin@dbsrde6.hlp>main
+4 Wiederherstellungsprozeduren des Replikationssystems =id_sr_248@dbsrde6.hlp>main
+4 Konsistente Nachrichten-Agenten-Einstellungen sicherstellen =id_sr_249@dbsrde6.hlp>main
+4 Der Nachrichten-Agent und Replikationssicherheit =ss-ma-rep-security@dbsrde6.hlp>main
+4 Performance des Nachrichten-Agenten optimieren
+4 Einleitung=tuning-sr-admin@dbsrde6.hlp
+4 Durchlaufzeit durch die Steuerung des Thread-Verhaltens des Nachrichten-Agenten kontrollieren =threading-tuning-sr-admin@dbsrde6.hlp>main
+4 Durchlaufzeit durch Nachrichten-Cache optimieren =caching-running-sr-admin@dbsrde6.hlp>main
+5 Abruf ankommender Nachrichten optimieren
+5 Einleitung=polling-running-sr-admin@dbsrde6.hlp
+5 Abrufintervall =id_sr_255@dbsrde6.hlp>main
+5 Nochmalige Sendung anfordern =id_sr_256@dbsrde6.hlp>main
+5 Beispiel =id_sr_257@dbsrde6.hlp>main
+5 Prozeß für die Nachrichtensendung optimieren
+5 Einleitung=tuning-send-sr-admin@dbsrde6.hlp
+5 Abrufintervall =id_sr_259@dbsrde6.hlp>main
+5 Nachrichten wieder versenden =id_sr_260@dbsrde6.hlp>main
+4 Nachrichten codieren und komprimieren
+4 Einleitung=encoding-sr-admin@dbsrde6.hlp
+4 Das Codierungsschema =id_sr_262@dbsrde6.hlp>main
+4 Angepaßte Codierungsschemata erstellen =id_sr_263@dbsrde6.hlp>main
+4 Das Nachrichten-Protokollierungssystem
+4 Einleitung=wrmt@dbsrde6.hlp
+4 Statusinformation in der "remoteuser"-Tabelle =wrmtst@dbsrde6.hlp>main
+4 Nachrichten anhand von Transaktionslog-Offsets protokollieren =wrmttm@dbsrde6.hlp>main
+4 Verlorene oder beschädigte Nachrichten behandeln =wrmtrm@dbsrde6.hlp>main
+3 KAPITEL 11.  SQL Remote für den Adaptive Server Anywhere verwalten
+3 Einleitung=sra-admin@dbsrde6.hlp
+4 Den Nachrichten-Agenten ausführen
+4 Einleitung=sra-running-message-agent@dbsrde6.hlp
+4 Den Nachrichten-Agenten starten =id_sr_270@dbsrde6.hlp>main
+4 Den Nachrichten-Agenten als Dienst ausführen =id_sr_271@dbsrde6.hlp>main
+4 Der Nachrichten-Agent und Replikationssicherheit =wrmase@dbsrde6.hlp>main
+4 Fehlermeldung und Fehlerbehandlung
+4 Einleitung=wrchrp@dbsrde6.hlp
+4 Standard-Fehlerbehandlung =id_sr_274@dbsrde6.hlp>main
+4 Fehler ignorieren =id_sr_275@dbsrde6.hlp>main
+5 Fehlerbehandlungsprozeduren implementieren
+5 Einleitung=id_sr_276@dbsrde6.hlp
+5 Beispiel: Fehlermeldung mit E-Mail =id_sr_277@dbsrde6.hlp>main
+4 Transaktionslog und Sicherungsverwaltung
+4 Einleitung=sra-tranlog-backup@dbsrde6.hlp
+4 Das Transaktionslog-Verzeichnis einstellen =id_sr_279@dbsrde6.hlp>main
+5 Optionen des Sicherungsdienstprogramms
+5 Einleitung=id_sr_280@dbsrde6.hlp
+5 Das "live"-Verzeichnis als das Transaktionslog-Verzeichnis verwenden =id_sr_281@dbsrde6.hlp>main
+5 Das Sicherungsverzeichnis als das Transaktionslog-Verzeichnis verwenden =id_sr_282@dbsrde6.hlp>main
+4 Alte Transaktionslogs verwalten =wrtldl@dbsrde6.hlp>main
+5 Wiederherstellung nach Datenbank-Datenträgerfehlern bei konsolidierten Datenbanken
+5 Einleitung=id_sr_284@dbsrde6.hlp
+5 Wiederherstellung mit einem einzigen Transaktionslog =id_sr_285@dbsrde6.hlp>main
+5 Wiederherstellung mit mehreren Transaktionslogs =id_sr_286@dbsrde6.hlp>main
+4 Sicherungsprozeduren an entfernten Datenbanken =wrtlrd@dbsrde6.hlp>main
+4 Upgrade bei konsolidierten Datenbanken =id_sr_288@dbsrde6.hlp>main
+4 Eine konsolidierte Datenbank entladen und neu laden =wrtluu@dbsrde6.hlp>main
+4 Den Passthrough-Modus verwenden
+4 Einleitung=sra-using-passthrough@dbsrde6.hlp
+4 Anwendungen und Einschränkungen des Passthrough-Modus =sra-passthrough-limits@dbsrde6.hlp>main
+4 Nicht-replizierte Vorgänge im Passthrough-Modus =id_sr_292@dbsrde6.hlp>main
+3 KAPITEL 12.  SQL Remote für den Adaptive Server Enterprise verwalten
+3 Einleitung=srs-admin@dbsrde6.hlp
+4 Wie der Nachrichten-Agent beim Adaptive Server Enterprise funktioniert
+4 Einleitung=ss-how-message-agent-works@dbsrde6.hlp
+4 Das Transaktionslog scannen =id_sr_295@dbsrde6.hlp>main
+4 Die Stable-Warteschlange =ss-sq@dbsrde6.hlp>main
+4 Phasen des Nachrichten-Agenten =ss-message-agent-operation@dbsrde6.hlp>main
+4 Den Nachrichten-Agenten ausführen
+4 Einleitung=ss-running-the-message-agent@dbsrde6.hlp
+4 Der Nachrichten-Agent und Replikationssicherheit =id_sr_299@dbsrde6.hlp>main
+4 Mehrere Nachrichten-Agenten ausführen =running-multiple-agents@dbsrde6.hlp>main
+4 Fehlermeldung und Fehlerbehandlung
+4 Einleitung=srs-error-handling@dbsrde6.hlp
+4 Standard-Fehlerbehandlung =id_sr_302@dbsrde6.hlp>main
+4 Fehlerbehandlungsprozeduren implementieren =id_sr_303@dbsrde6.hlp>main
+4 Adaptive Server Enterprise Transaktionslog- und Sicherungsverwaltung
+4 Einleitung=ss-tranlog-backup@dbsrde6.hlp
+4 Sich vor Datenträgerfehlern auf dem Transaktionslog schützen =id_sr_305@dbsrde6.hlp>main
+4 Wiederherstellung der Stable-Warteschlange =stable-queue-recovery@dbsrde6.hlp>main
+4 Transaktionslog-Verwaltung =ss-log-management@dbsrde6.hlp>main
+3 Schema-Änderungen durchführen =srs-making-schema-changes@dbsrde6.hlp>main
+4 Den Passthrough-Modus verwenden
+4 Einleitung=ss-passthrough@dbsrde6.hlp
+4 Schema-Änderungen =ss-schema-modifications@dbsrde6.hlp>main
+3 KAPITEL 13.  SQL Remote mit dem Replication Server verwenden
+3 Einleitung=ssqueue@dbsrde6.hlp
+3 Wann Sie den SQL Remote Open Server brauchen =overview-ssqueue@dbsrde6.hlp>main
+4 Architektur bei Replication Server/SQL Remote-Installationen
+4 Einleitung=architecture-ssqueue@dbsrde6.hlp
+4 Und so paßt alles zusammen =id_sr_314@dbsrde6.hlp>main
+3 Den SQL Remote Open Server einrichten =setup-ssqueue@dbsrde6.hlp>main
+4 Den Replication Server konfigurieren
+4 Einleitung=rs-ssqueue@dbsrde6.hlp
+4 Den "dsi_xact_group_size"-Parameter einstellen =id_sr_317@dbsrde6.hlp>main
+4 Den "dsi_fadeout_time"-Parameter einstellen =id_sr_318@dbsrde6.hlp>main
+4 Den "dsi_num_threads"-Parameter einstellen =id_sr_319@dbsrde6.hlp>main
+4 Replikationsdefinitionen für SQL Remote Daten erstellen =id_sr_320@dbsrde6.hlp>main
+4 Die Verbindung unterbrechen und neu starten =id_sr_321@dbsrde6.hlp>main
+3 Andere Themen =other-ssqueue@dbsrde6.hlp>main
+2 TEIL 4 . Referenz
+2 Einleitung=id_sr_323@dbsrde6.hlp
+3 KAPITEL 14.  Dienstprogramme und Optionen
+3 Einleitung=sr-utils@dbsrde6.hlp
+3 Der Nachrichten-Agent =dbrem@dbsrde6.hlp>main
+4 Das Datenbank-Extraktionsdienstprogramm
+4 Einleitung=dbxt@dbsrde6.hlp
+4 Eine entfernte Datenbank in Sybase Central extrahieren =dbxtsc@dbsrde6.hlp>main
+4 Das Befehlszeilen-Dienstprogramm zum Extrahieren =dbxtract@dbsrde6.hlp>main
+4 Extraktionsdienstprogramm-Optionen =dbxtop@dbsrde6.hlp>main
+3 Der SQL Remote Open Server =sros-utils@dbsrde6.hlp>main
+3 SQL Remote Optionen =sr-options@dbsrde6.hlp>main
+3 KAPITEL 15.  Systemobjekte für den Adaptive Server Anywhere
+3 Einleitung=sra-tables@dbsrde6.hlp
+4 Systemtabellen von SQL Remote
+4 Einleitung=sql-remote-tables@dbsrde6.hlp
+4 SYSARTICLE-Tabelle =sysarticle-sra@dbsrde6.hlp>main
+4 SYSARTICLECOL-Tabelle =sysarticlecol-sra@dbsrde6.hlp>main
+4 SYSPUBLICATION-Tabelle =syspublication-sra@dbsrde6.hlp>main
+4 SYSREMOTETYPE-Tabelle =sysremotetype-sra@dbsrde6.hlp>main
+4 SYSREMOTEUSER-Tabelle =sysremoteuser-sra@dbsrde6.hlp>main
+4 SYSSUBSCRIPTION-Tabelle =syssubscription-sra@dbsrde6.hlp>main
+4 SQL Remote System-Ansichten
+4 Einleitung=sql-remote-views@dbsrde6.hlp
+4 SYSARTICLES-Ansicht =sysarticles-sra@dbsrde6.hlp>main
+4 SYSARTICLECOLS-Ansicht =sysarticlecols-sra@dbsrde6.hlp>main
+4 SYSPUBLICATIONS-Ansicht =syspublications-sra@dbsrde6.hlp>main
+4 SYSREMOTEUSERS-Ansicht =sysremoteusers-sra@dbsrde6.hlp>main
+4 SYSSUBSCRIPTIONS-Ansicht =syssubscriptions-sra@dbsrde6.hlp>main
+3 KAPITEL 16.  Systemobjekte für den Adaptive Server Enterprise
+3 Einleitung=sr-tables@dbsrde6.hlp
+4 Systemtabellen von SQL Remote
+4 Einleitung=id_sr_347@dbsrde6.hlp
+4 #remote table =id_sr_348@dbsrde6.hlp>main
+4 sr_article-Tabelle =sr-article@dbsrde6.hlp>main
+4 sr_articlecol-Tabelle =sr-articlecol@dbsrde6.hlp>main
+4 sr_marker-Tabelle =sr-marker@dbsrde6.hlp>main
+4 sr_object-Tabelle =sr-object@dbsrde6.hlp>main
+4 sr_option-Tabelle =sr-option@dbsrde6.hlp>main
+4 sr_passthrough-Tabelle =sr-passthrough@dbsrde6.hlp>main
+4 sr_publication-Tabelle =sr-publication@dbsrde6.hlp>main
+4 sr_publisher-Tabelle =sr-publisher@dbsrde6.hlp>main
+4 sr_remotetable-Tabelle =sr-remotetable@dbsrde6.hlp>main
+4 sr_remotetype-Tabelle =sr-remotetype@dbsrde6.hlp>main
+4 sr_remoteuser-Tabelle =sr-remoteuser@dbsrde6.hlp>main
+4 sr_subscription-Tabelle =sr-subscription@dbsrde6.hlp>main
+4 SQL Remote System-Ansichten
+4 Einleitung=id_sr_361@dbsrde6.hlp
+4 sr_articles-Ansicht =sr-articles@dbsrde6.hlp>main
+4 sr_articlecols-Ansicht =sr-articlecols@dbsrde6.hlp>main
+4 sr_publications-Ansicht =sr-publications@dbsrde6.hlp>main
+4 sr_remotetables-Ansicht =sr-remotetables@dbsrde6.hlp>main
+4 sr_remotetypes-Ansicht =sr-remotetypes@dbsrde6.hlp>main
+4 sr_remoteusers-Ansicht =sr-remoteusers@dbsrde6.hlp>main
+4 sr_subscriptions-Ansicht =sr-subscriptions@dbsrde6.hlp>main
+4 Stable-Warteschlange Tabellen
+4 Einleitung=stable-queue-tables@dbsrde6.hlp
+4 sr_queue_state-Tabelle =sr-queue-state@dbsrde6.hlp>main
+4 sr_transaction-Tabelle =sr-transaction@dbsrde6.hlp>main
+3 KAPITEL 17.  Befehlsreferenz für den Adaptive Server Anywhere
+3 Einleitung=sr-sa-ref@dbsrde6.hlp
+3 ALTER PUBLICATION Anweisung =alpub@dbsrde6.hlp>main
+3 ALTER REMOTE MESSAGE TYPE Anweisung =almsg@dbsrde6.hlp>main
+3 CREATE PUBLICATION Anweisung =crpub@dbsrde6.hlp>main
+3 CREATE REMOTE MESSAGE TYPE Anweisung =crmsg@dbsrde6.hlp>main
+3 CREATE SUBSCRIPTION Anweisung =crsub@dbsrde6.hlp>main
+3 CREATE TRIGGER Anweisung =creatrg@dbsrde6.hlp>main
+3 DROP PUBLICATION Anweisung =drpub@dbsrde6.hlp>main
+3 DROP REMOTE MESSAGE TYPE Anweisung =drmsg@dbsrde6.hlp>main
+3 DROP SUBSCRIPTION Anweisung =drsub@dbsrde6.hlp>main
+3 GRANT CONSOLIDATE Anweisung =grcon@dbsrde6.hlp>main
+3 GRANT PUBLISH Anweisung =grpub@dbsrde6.hlp>main
+3 GRANT REMOTE Anweisung =grrem@dbsrde6.hlp>main
+3 GRANT REMOTE DBA Anweisung =grant-remtoe-dba-sr-sa-ref@dbsrde6.hlp>main
+3 PASSTHROUGH Anweisung =passthr@dbsrde6.hlp>main
+3 REMOTE RESET Anweisung =remote-reset@dbsrde6.hlp>main
+3 REVOKE CONSOLIDATE Anweisung =recon@dbsrde6.hlp>main
+3 REVOKE PUBLISH Anweisung =repub@dbsrde6.hlp>main
+3 REVOKE REMOTE Anweisung =rerem@dbsrde6.hlp>main
+3 REVOKE REMOTE DBA Anweisung =revoke-remote-dba-sr-sa-ref@dbsrde6.hlp>main
+3 START SUBSCRIPTION Anweisung =startsub@dbsrde6.hlp>main
+3 STOP SUBSCRIPTION Anweisung =stopsub@dbsrde6.hlp>main
+3 SYNCHRONIZE SUBSCRIPTION Anweisung =syncsub@dbsrde6.hlp>main
+3 UPDATE Anweisung =update@dbsrde6.hlp>main
+3 KAPITEL 18.  Befehlsreferenz für den Adaptive Server Enterprise
+3 Einleitung=sr-ss-ref@dbsrde6.hlp
+3 sp_add_article-Prozedur =sp-add-article@dbsrde6.hlp>main
+3 sp_add_article_col-Prozedur =sp-add-article-col@dbsrde6.hlp>main
+3 sp_add_remote_table-Prozedur =sp-add-remote-table@dbsrde6.hlp>main
+3 sp_create_publication-Prozedur =sp-create-publication@dbsrde6.hlp>main
+3 sp_drop_publication-Prozedur =sp-drop-publication@dbsrde6.hlp>main
+3 sp_drop_remote_type-Prozedur =sp-drop-remote-type@dbsrde6.hlp>main
+3 sp_drop_sql_remote-Prozedur =sp-drop-sql-remote@dbsrde6.hlp>main
+3 sp_grant_consolidate-Prozedur =sp-grant-consolidate@dbsrde6.hlp>main
+3 sp_grant_remote-Prozedur =sp-grant-remote@dbsrde6.hlp>main
+3 sp_modify_article-Prozedur =sp-modify-article@dbsrde6.hlp>main
+3 sp_modify_remote_table-Prozedur =sp-modify-remote-table@dbsrde6.hlp>main
+3 sp_passthrough-Prozedur =sp-passthrough@dbsrde6.hlp>main
+3 sp_passthrough_piece-Prozedur =sp-passthrough-piece@dbsrde6.hlp>main
+3 sp_passthrough_stop-Prozedur =sp-passthrough-stop@dbsrde6.hlp>main
+3 sp_passthrough_subscription-Prozedur =sp-passthrough-subscription@dbsrde6.hlp>main
+3 sp_passthrough_user-Prozedur =sp-passthrough-user@dbsrde6.hlp>main
+3 sp_populate_sql_anywhere-Prozedur =sp-populate-sql-anywhere@dbsrde6.hlp>main
+3 sp_publisher-Prozedur =sp-publisher@dbsrde6.hlp>main
+3 sp_queue_clean-Prozedur =sp-queue-clean@dbsrde6.hlp>main
+3 sp_queue_delete_old-Prozedur =sp-queue-delete-old@dbsrde6.hlp>main
+3 sp_queue_drop-Prozedur =sp-queue-drop@dbsrde6.hlp>main
+3 sp_queue_dump_database-Prozedur =sp-queue-dump-database@dbsrde6.hlp>main
+3 sp_queue_dump_transaction-Prozedur =sp-queue-dump-transaction@dbsrde6.hlp>main
+3 sp_queue_get_state-Prozedur =sp-queue-get-state@dbsrde6.hlp>main
+3 sp_queue_read-Prozedur =sp-queue-read@dbsrde6.hlp>main
+3 sp_queue_reset-Prozedur =sp-queue-reset@dbsrde6.hlp>main
+3 sp_queue_set_confirm-Prozedur =sp-queue-set-confirm@dbsrde6.hlp>main
+3 sp_queue_set_progress-Prozedur =sp-queue-set-progress@dbsrde6.hlp>main
+3 sp_queue_transaction-Prozedur =sp-queue-transaction@dbsrde6.hlp>main
+3 sp_remote-Prozedur =sp-remote@dbsrde6.hlp>main
+3 sp_remote_option-Prozedur =sp-remote-option@dbsrde6.hlp>main
+3 sp_remote_type-Prozedur =sp-remote-type@dbsrde6.hlp>main
+3 sp_remove_article-Prozedur =sp-remove-article@dbsrde6.hlp>main
+3 sp_remove_article_col-Prozedur =sp-remove-article-col@dbsrde6.hlp>main
+3 sp_remove_remote_table-Prozedur =sp-remove-remote-table@dbsrde6.hlp>main
+3 sp_revoke_consolidate-Prozedur =sp-revoke-consolidate@dbsrde6.hlp>main
+3 sp_revoke_remote-Prozedur =sp-revoke-remote@dbsrde6.hlp>main
+3 sp_subscription-Prozedur =sp-subscription@dbsrde6.hlp>main
+2 TEIL 5 . Anhang
+2 Einleitung=id_sr_435@dbsrde6.hlp
+3 ANHANG A.  Enterprise und Anywhere: Unterschiede
+3 Einleitung=diffs@dbsrde6.hlp
+3 Auftretende Unterschiede =types-srdiff@dbsrde6.hlp>main
+3 Unterschiede in der Funktionsweise =functionality-srdiff@dbsrde6.hlp>main
+4 Unterschiede im Zugang
+4 Einleitung=approach-srdiff@dbsrde6.hlp
+4 Adaptive Server Enterprise Prozeduren und Adaptive Server Anywhere Anweisungen =id_sr_440@dbsrde6.hlp>main
+3 Einschränkungen bei der Enterprise-zu-Enterprise Replikation =ase-limits-srdiff@dbsrde6.hlp>main

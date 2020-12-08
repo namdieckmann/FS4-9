@@ -1,0 +1,128 @@
+Base dbupen6.hlp>main
+Title Test
+1 ASA New Features and Upgrading Guide
+1 Overview=id_up_2@dbupen6.hlp
+1 Copyright page =id_up_3@dbupen6.hlp>main
+2 About This Manual
+2 Overview=id_up_4@dbupen6.hlp
+2 About this Manual =about-this-manual@dbupen6.hlp>main
+2 Adaptive Server Anywhere documentation =id_up_6@dbupen6.hlp>main
+3 Documentation conventions
+3 Overview=documentation-conventions-pref@dbupen6.hlp
+3 Syntax conventions =synconv@dbupen6.hlp>main
+3 Graphic icons =htgi@dbupen6.hlp>main
+3 Installed files =id_up_10@dbupen6.hlp>main
+2 The sample database =id_up_11@dbupen6.hlp>main
+2 CHAPTER 1.  Adaptive Server Anywhere 6.0.3
+2 Overview=new603@dbupen6.hlp
+3 New features
+3 Overview=new-new603@dbupen6.hlp
+3 New documentation features =id_up_14@dbupen6.hlp>main
+2 Behavior changes =behavior-new603@dbupen6.hlp>main
+2 Upgrade issues =upgrade-new603@dbupen6.hlp>main
+2 CHAPTER 2.  Adaptive Server Anywhere 6.0.2
+2 Overview=new602@dbupen6.hlp
+3 New features
+3 Overview=new-new602@dbupen6.hlp
+3 New documentation features =id_up_19@dbupen6.hlp>main
+2 Behavior changes =behavior-new602@dbupen6.hlp>main
+2 CHAPTER 3.  New Features in Adaptive Server Anywhere 6.0.1
+2 Overview=new601@dbupen6.hlp
+3 Adaptive Server Anywhere for Windows CE
+3 Overview=windows-ce-new601@dbupen6.hlp
+3 Desktop management of Windows CE databases =id_up_23@dbupen6.hlp>main
+3 Creating Windows CE databases =creating-wince-databases-new601@dbupen6.hlp>main
+3 SQL Remote and Windows CE =sqlremote-wince-new601@dbupen6.hlp>main
+3 Windows CE database features =id_up_26@dbupen6.hlp>main
+3 Using ODBC with Windows CE =id_up_27@dbupen6.hlp>main
+3 Remote data access
+3 Overview=remote-new601@dbupen6.hlp
+3 Sybase Central (Java Edition) =java-sc-new601@dbupen6.hlp>main
+2 Character set translation =character-new601@dbupen6.hlp>main
+2 New Java features =java-new601@dbupen6.hlp>main
+2 Additional new features =additional-new601@dbupen6.hlp>main
+2 New features in SQL Remote =sqlremote-new601@dbupen6.hlp>main
+2 Behavior changes =behavior-changes-new601@dbupen6.hlp>main
+2 CHAPTER 4.  New Features in Adaptive Server Anywhere 6.0
+2 Overview=new-features@dbupen6.hlp
+2 New features overview =intro-new-features@dbupen6.hlp>main
+2 Java in the database =java-new-features@dbupen6.hlp>main
+3 Multi-processor support and improved multi-tasking
+3 Overview=multi-new-features@dbupen6.hlp
+3 Goals of multi-processor support =id_up_39@dbupen6.hlp>main
+3 How threading works =threads-new-features@dbupen6.hlp>main
+4 Controlling threading behavior
+4 Overview=id_up_41@dbupen6.hlp
+4 Threads in SQL Anywhere Version 5 =id_up_42@dbupen6.hlp>main
+3 Impact on single-processor machines =id_up_43@dbupen6.hlp>main
+3 Query optimization enhancements
+3 Overview=query-new-features@dbupen6.hlp
+3 What is a query optimizer? =id_up_45@dbupen6.hlp>main
+3 Rewrite optimization =id_up_46@dbupen6.hlp>main
+3 Subquery caching =id_up_47@dbupen6.hlp>main
+3 Fractional user-supplied estimates =id_up_48@dbupen6.hlp>main
+3 New communications features
+3 Overview=streams-new-features@dbupen6.hlp
+3 ODBC data sources =id_up_50@dbupen6.hlp>main
+3 No network server user interface =id_up_51@dbupen6.hlp>main
+3 Programming interface enhancements
+3 Overview=programming-new-features@dbupen6.hlp
+4 New ODBC features
+4 Overview=newodbcfeatures@dbupen6.hlp
+4 Native ODBC =id_up_54@dbupen6.hlp>main
+4 ODBC 3.0 support =id_up_55@dbupen6.hlp>main
+3 JDBC, Open Client, and TDS support =open-client-new-features@dbupen6.hlp>main
+3 Embedded SQL features =id_up_57@dbupen6.hlp>main
+2 Simplicity of operation =simplicity-new-features@dbupen6.hlp>main
+2 New SQL features =new-sql-features@dbupen6.hlp>main
+3 Database administration enhancements
+3 Overview=database-administration-new-features@dbupen6.hlp
+3 Database file manipulation statements =creating-new-features@dbupen6.hlp>main
+3 Resource management options =id_up_62@dbupen6.hlp>main
+3 New database options =new-database-new-features@dbupen6.hlp>main
+3 Miscellaneous administration enhancements =id_up_64@dbupen6.hlp>main
+2 Other new features =other-new-features@dbupen6.hlp>main
+2 SQL Remote new features =remote-new-features@dbupen6.hlp>main
+2 CHAPTER 5.  Behavior Changes in Adaptive Server Anywhere 6.0
+2 Overview=behavior-changes@dbupen6.hlp
+2 Platform and protocol support =platform-behavior-new-features@dbupen6.hlp>main
+2 Database server changes =database-behavior-new-features@dbupen6.hlp>main
+2 Administration utility changes =administration-behavior-new-features@dbupen6.hlp>main
+2 Transact-SQL outer join changes =transact-behavior-changes@dbupen6.hlp>main
+2 Other changes =miscellaneous-behavior-new-features@dbupen6.hlp>main
+2 CHAPTER 6.  Upgrading From SQL Anywhere to Adaptive Server Anywhere
+2 Overview=upgrade@dbupen6.hlp
+3 Understanding upgrades
+3 Overview=understanding-upgrades-upgrade@dbupen6.hlp
+3 Standard upgrade precautions =id_up_75@dbupen6.hlp>main
+3 The components in your system =id_up_76@dbupen6.hlp>main
+3 Major upgrading issues =id_up_77@dbupen6.hlp>main
+3 When to upgrade your database =id_up_78@dbupen6.hlp>main
+3 Running more than one version of the software =id_up_79@dbupen6.hlp>main
+3 Review of SQL Anywhere Version 5 architecture
+3 Overview=sql-anywhere-upgrade@dbupen6.hlp
+3 Standalone components for Version 5 (Embedded SQL) =id_up_81@dbupen6.hlp>main
+3 Standalone components for Version 5 (ODBC) =id_up_82@dbupen6.hlp>main
+3 Client/server components for Version 5 =id_up_83@dbupen6.hlp>main
+3 Upgrading Embedded SQL applications
+3 Overview=upgrading-esql-upgrade@dbupen6.hlp
+3 Upgrade procedures for Embedded SQL applications =id_up_85@dbupen6.hlp>main
+3 Using the version 5 utilities with Adaptive Server Anywhere 6.0 =v5-utilities-upgrade@dbupen6.hlp>main
+3 Upgrading ODBC applications
+3 Overview=upgrading-odbc-upgrade@dbupen6.hlp
+3 Upgrade procedures for ODBC applications =id_up_88@dbupen6.hlp>main
+3 Upgrade notes for PowerBuilder and InfoMaker users =pb-im-upgrade@dbupen6.hlp>main
+3 Using the compatibility library
+3 Overview=compatibility-library-upgrade@dbupen6.hlp
+3 The Version 5 Embedded SQL interface library =id_up_91@dbupen6.hlp>main
+3 How Version 5 client applications locate the interface library =id_up_92@dbupen6.hlp>main
+3 Using the compatibility library =using-compatibility-upgrade@dbupen6.hlp>main
+3 How the compatibility library works =id_up_94@dbupen6.hlp>main
+3 File locations and the compatibility library =file-upgrading-upgrade@dbupen6.hlp>main
+3 Start parameters and the compatibility library =start-upgrading-upgrade@dbupen6.hlp>main
+3 Capturing dbclient command-line information
+3 Overview=capturing-dbclient-upgrade@dbupen6.hlp
+3 How to capture client command-line information =id_up_98@dbupen6.hlp>main
+3 How the compatibility client executable works =id_up_99@dbupen6.hlp>main
+2 Upgrading databases =upgrading-databases@dbupen6.hlp>main
+2 Upgrading SQL Remote installations =upgrading-sql-remote-upgrade@dbupen6.hlp>main

@@ -1,0 +1,228 @@
+Base dbpide6.hlp>main
+Title Test
+1 ASA Programmierschnittstellen
+1 Einleitung=id_pi_2@dbpide6.hlp
+1 Urheberrechtsvermerke =id_pi_3@dbpide6.hlp>main
+2 Über dieses Handbuch
+2 Einleitung=id_pi_4@dbpide6.hlp
+2 Über dieses Handbuch =id_pi_5@dbpide6.hlp>main
+2 Dokumentation zum Adaptive Server Anywhere =id_pi_6@dbpide6.hlp>main
+3 Konventionen in dieser Dokumentation
+3 Einleitung=documentation-conventions-pref@dbpide6.hlp
+3 Syntaxkonventionen =synconv@dbpide6.hlp>main
+3 Grafische Symbole =htgi@dbpide6.hlp>main
+3 Installierte Dateien =id_pi_10@dbpide6.hlp>main
+2 Die Beispieldatenbank =id_pi_11@dbpide6.hlp>main
+2 KAPITEL 1.  Überblick über die Programmierschnittstelle
+2 Einleitung=interf@dbpide6.hlp
+2 Die ODBC-Programmierschnittstelle =odbc-devintro@dbpide6.hlp>main
+2 Die Embedded-SQL-Programmierschnittstelle =embedded-devintro@dbpide6.hlp>main
+2 Die JDBC-Programmierschnittstelle =jdbc-devintro@dbpide6.hlp>main
+3 Die Open-Client-Programmierschnittstelle
+3 Einleitung=open-devintro@dbpide6.hlp
+3 Die Open Client Architektur =id_pi_17@dbpide6.hlp>main
+2 KAPITEL 2.  Die Embedded SQL-Schnittstelle
+2 Einleitung=embedsql@dbpide6.hlp
+3 Anwendungen entwickeln mit Embedded SQL
+3 Einleitung=sqlpp@dbpide6.hlp
+3 Unterstützte Compiler =ppcomp@dbpide6.hlp>main
+3 Überblick über den Entwicklungsprozeß =ppdevw@dbpide6.hlp>main
+3 Den SQL-Preprocessor verwenden =pprun@dbpide6.hlp>main
+3 Header-Dateien für Embedded SQL =header@dbpide6.hlp>main
+3 Import-Bibliotheken =librs@dbpide6.hlp>main
+3 Ein einfaches Beispiel =ppseg@dbpide6.hlp>main
+3 Die Struktur von Embedded SQL-Programmen =ppstru@dbpide6.hlp>main
+3 Benutzer-ID und Datenbank-Zugriffsberechtigung =esqlaut@dbpide6.hlp>main
+3 Die Interface-Bibliothek dynamisch laden =dynamic-loading@dbpide6.hlp>main
+2 Datentypen in Embedded SQL =esqlvar@dbpide6.hlp>main
+3 Hostvariable benutzen
+3 Einleitung=hostvar@dbpide6.hlp
+3 Hostvariable deklarieren =hovdecl@dbpide6.hlp>main
+3 C-Hostvariablentypen =hovcvt@dbpide6.hlp>main
+3 Hostvariable benutzen =hovusag@dbpide6.hlp>main
+4 Indikatorvariable
+4 Einleitung=indvar@dbpide6.hlp
+4 Indikatorvariable für die Behandlung von NULL verwenden =id_pi_35@dbpide6.hlp>main
+4 Indikatorvariable für abgeschnittene Werte verwenden =id_pi_36@dbpide6.hlp>main
+4 Indikatorwerte für Konvertierungsfehler verwenden =id_pi_37@dbpide6.hlp>main
+4 Zusammenfassung: Werte für Indikatorvariable =id_pi_38@dbpide6.hlp>main
+3 SQL-Kommunikationsbereich
+3 Einleitung=sqlca@dbpide6.hlp
+3 Felder im SQLCA-Bereich =id_pi_40@dbpide6.hlp>main
+3 SQLCA-Verwaltung für Code mit mehreren Threads oder reentrant Code =msqlca@dbpide6.hlp>main
+4 Mehrere SQLCA-Bereiche benutzen
+4 Einleitung=id_pi_42@dbpide6.hlp
+4 In welchen Fällen Sie mehrere SQLCA-Bereiche benutzen =id_pi_43@dbpide6.hlp>main
+4 Verbindungsverwaltung mit mehreren SQLCA-Bereichen =id_pi_44@dbpide6.hlp>main
+3 Daten abrufen
+3 Einleitung=fetchd@dbpide6.hlp
+3 Eingebettetes SELECT =id_pi_46@dbpide6.hlp>main
+3 Cursor in Embedded SQL =cursors@dbpide6.hlp>main
+3 Statische und dynamische SQL
+3 Einleitung=dynamic@dbpide6.hlp
+3 Statische SQL-Anweisungen =stastat@dbpide6.hlp>main
+3 Dynamische SQL-Anweisungen =dynstat@dbpide6.hlp>main
+3 Die dynamische SELECT-Anweisung =dynsel@dbpide6.hlp>main
+3 Mehr als eine Zeile auf einmal abrufen =wdftch@dbpide6.hlp>main
+3 Der SQL-Deskriptor-Bereich (SQLDA)
+3 Einleitung=sqlda@dbpide6.hlp
+3 SQLDA-Felder und ihre Bedeutung =sqlda-sql-esql@dbpide6.hlp>main
+3 Hostvariablen-Beschreibungen im SQLDA-Bereich =host-sqlda-esql@dbpide6.hlp>main
+3 Werte des Längenfelds (length field) =lenfld@dbpide6.hlp>main
+3 Gespeicherte Prozeduren in Embedded SQL verwenden
+3 Einleitung=esqlsp@dbpide6.hlp
+3 Einfache Prozeduren =id_pi_58@dbpide6.hlp>main
+3 Prozeduren mit Ergebnismengen =id_pi_59@dbpide6.hlp>main
+3 Bibliotheksfunktionen
+3 Einleitung=libfunc@dbpide6.hlp
+4 Schnittstellen-Initialisierungsfunktionen
+4 Einleitung=libint@dbpide6.hlp
+4 db_init Funktion =id_pi_62@dbpide6.hlp>main
+4 db_fini-Funktion =id_pi_63@dbpide6.hlp>main
+4 Verbindungs- und Server-Verwaltungsfunktionen
+4 Einleitung=connman@dbpide6.hlp
+4 db_string_connect-Funktion =id_pi_65@dbpide6.hlp>main
+4 db_string_disconnect-Funktion =id_pi_66@dbpide6.hlp>main
+4 db_start_engine-Funktion =id_pi_67@dbpide6.hlp>main
+4 db_start_database-Funktion =id_pi_68@dbpide6.hlp>main
+4 db_stop_database-Funktion =id_pi_69@dbpide6.hlp>main
+4 db_stop_engine-Funktion =id_pi_70@dbpide6.hlp>main
+4 db_find_engine-Funktion =id_pi_71@dbpide6.hlp>main
+4 SQLDA-Verwaltungsfunktionen
+4 Einleitung=sqldaf@dbpide6.hlp
+4 alloc_sqlda_noind-Funktion =id_pi_73@dbpide6.hlp>main
+4 alloc_sqlda-Funktion =id_pi_74@dbpide6.hlp>main
+4 fill_sqlda-Funktion =id_pi_75@dbpide6.hlp>main
+4 sqlda_string_length-Funktion =id_pi_76@dbpide6.hlp>main
+4 sqlda_storage-Funktion =id_pi_77@dbpide6.hlp>main
+4 fill_s_sqlda-Funktion =id_pi_78@dbpide6.hlp>main
+4 free_filled_sqlda-Funktion =id_pi_79@dbpide6.hlp>main
+4 free_sqlda_noind-Funktion =id_pi_80@dbpide6.hlp>main
+4 free_sqlda-Funktion =id_pi_81@dbpide6.hlp>main
+4 Sicherungsfunktionen
+4 Einleitung=libback@dbpide6.hlp
+4 db_backup-Funktion =id_pi_83@dbpide6.hlp>main
+4 db_delete_file-Funktion =id_pi_84@dbpide6.hlp>main
+4 Anforderung abbrechen
+4 Einleitung=dbabort@dbpide6.hlp
+4 db_cancel_request-Funktion =id_pi_86@dbpide6.hlp>main
+4 db_is_working-Funktion =id_pi_87@dbpide6.hlp>main
+4 Sonstige Funktionen
+4 Einleitung=libmisc@dbpide6.hlp
+4 sql_needs_quotes-Funktion =id_pi_89@dbpide6.hlp>main
+4 sqlerror_message-Funktion =id_pi_90@dbpide6.hlp>main
+4 Funktionen für die Anforderungsverwaltung
+4 Einleitung=winreqs@dbpide6.hlp
+4 db_register_a_callback-Funktion =id_pi_92@dbpide6.hlp>main
+4 db_process_a_message-Funktion =id_pi_93@dbpide6.hlp>main
+2 Embedded SQL-Befehle =esqlcom@dbpide6.hlp>main
+3 Datenbankbeispiele
+3 Einleitung=dbexmp@dbpide6.hlp
+3 Beispiele kompilieren =egbld@dbpide6.hlp>main
+3 Beispielprogramme ausführen =egrun@dbpide6.hlp>main
+3 Beispiel für statische Cursor =cursex@dbpide6.hlp>main
+3 Beispiel für dynamische Cursor =dcursex@dbpide6.hlp>main
+3 Windows NT-Dienst-Beispiele =egnts@dbpide6.hlp>main
+2 KAPITEL 3.  Die Datenbank-Tools-Schnittstelle
+2 Einleitung=dbtools@dbpide6.hlp
+2 Einführung in die Datenbank-Tools-Schnittstelle =dbt-the-dbtools-interface@dbpide6.hlp>main
+3 Datenbank-Tools-Schnittstelle verwenden
+3 Einleitung=dbt-using-the-dbtools-interface@dbpide6.hlp
+3 Import-Bibliotheken verwenden =id_pi_104@dbpide6.hlp>main
+3 DBTools-Bibliothek starten und beenden =id_pi_105@dbpide6.hlp>main
+3 DBTools-Funktionen aufrufen =id_pi_106@dbpide6.hlp>main
+3 Callback-Funktionen verwenden =dbt-using-callback-functions@dbpide6.hlp>main
+3 Versionsnummern und Kompatibilität =dbt-version-numbers@dbpide6.hlp>main
+3 Bit-Felder benutzen =dbt-using-bit-fields@dbpide6.hlp>main
+3 Ein Beispiel für DBTools =id_pi_110@dbpide6.hlp>main
+3 DBTools-Funktionen
+3 Einleitung=dbt-dbtools-functions@dbpide6.hlp
+3 DBBackup-Funktion =dbt-dbbackup-function@dbpide6.hlp>main
+3 DBChangeLogName-Funktion =dbt-dbchangelogname-function@dbpide6.hlp>main
+3 DBChangeWriteFile-Funktion =dbt-dbchangewritefile-function@dbpide6.hlp>main
+3 DBCollate-Funktion =dbt-dbcollate-function@dbpide6.hlp>main
+3 DBCompress-Funktion =dbt-dbcompress-function@dbpide6.hlp>main
+3 DBCreate-Funktion =dbt-dbcreate-function@dbpide6.hlp>main
+3 DBCreateWriteFile function =dbt-dbcreatewritefile-function@dbpide6.hlp>main
+3 DBErase-Funktion =dbt-dberase-function@dbpide6.hlp>main
+3 DBExpand-Funktion =dbt-dbexpand-function@dbpide6.hlp>main
+3 DBInfo-Funktion =dbt-dbinfo-function@dbpide6.hlp>main
+3 DBInfoDump-Funktion =dbt-dbinfodump-function@dbpide6.hlp>main
+3 DBInfoFree-Funktion =dbt-dbinfofree-function@dbpide6.hlp>main
+3 DBStatusWriteFile-Funktion =dbt-dbstatuswritefile-function@dbpide6.hlp>main
+3 DBToolsFini-Funktion =dbt-dbtoolsfini-function@dbpide6.hlp>main
+3 DBToolsInit-Funktion =dbt-dbtoolsinit-function@dbpide6.hlp>main
+3 DBToolsVersion-Funktion =dbt-dbtoolsversion-function@dbpide6.hlp>main
+3 DBTranslateLog-Funktion =dbt-dbtranslatelog-function@dbpide6.hlp>main
+3 DBTruncateLog-Funktion =dbt-dbtruncatelog-function@dbpide6.hlp>main
+3 DBUnload-Funktion =dbt-dbunload-function@dbpide6.hlp>main
+3 DBUpgrade-Funktion =dbt-dbupgrade-function@dbpide6.hlp>main
+3 DBValidate-Funktion =dbt-dbvalidate-function@dbpide6.hlp>main
+3 DBTools-Strukturen
+3 Einleitung=dbt-dbtools-structures@dbpide6.hlp
+3 a_backup_db-Struktur =dbt-a-backup-db-structure@dbpide6.hlp>main
+3 a_change_log-Struktur =dbt-a-change-log-structure@dbpide6.hlp>main
+3 a_compress_db-Struktur =dbt-a-compress-db-structure@dbpide6.hlp>main
+3 a_compress_stats-Struktur =dbt-a-compress-stats-structure@dbpide6.hlp>main
+3 a_create_db-Struktur =dbt-a-create-db-structure@dbpide6.hlp>main
+3 a_db_collation-Struktur =dbt-a-db-collation-structure@dbpide6.hlp>main
+3 a_db_info-Struktur =dbt-a-db-info-structure@dbpide6.hlp>main
+3 a_dbtools_info-Struktur =dbt-a-dbtools-info-structure@dbpide6.hlp>main
+3 an_erase_dbStruktur =dbt-an-erase-db-structure@dbpide6.hlp>main
+3 an_expand_db-Struktur =dbt-an-expand-db-structure@dbpide6.hlp>main
+3 a_name-Struktur =dbt-a-name-structure@dbpide6.hlp>main
+3 a_stats_line-Struktur =dbt-a-stats-line-structure@dbpide6.hlp>main
+3 a_sysinfo-Struktur =dbt-a-sysinfo-structure@dbpide6.hlp>main
+3 a_table_info-Struktur =dbt-a-table-info-structure@dbpide6.hlp>main
+3 a_translate_log-Struktur =dbt-a-translate-log-structure@dbpide6.hlp>main
+3 a_truncate_log-Struktur =dbt-a-truncate-log-structure@dbpide6.hlp>main
+3 an_unload_db-Struktur =dbt-an-unload-db-structure@dbpide6.hlp>main
+3 an_upgrade_db-Struktur =dbt-an-upgrade-db-structure@dbpide6.hlp>main
+3 a_validate_db-Struktur =dbt-a-validate-db-structure@dbpide6.hlp>main
+3 a_writefileStruktur =dbt-a-writefile-structure@dbpide6.hlp>main
+3 DBTools-Aufzählungstypen
+3 Einleitung=dbt-dbtools-enums@dbpide6.hlp
+3 Verbosity (Ausführlichkeit) =dbt-verbosity-enum@dbpide6.hlp>main
+3 Blank Padding (Auffüllen mit Leerzeichen) =dbt-blankpad-enum@dbpide6.hlp>main
+3 dbtran_userlist_type =dbt-dbtran-enum@dbpide6.hlp>main
+3 dbunload type =dbt-unload-enum@dbpide6.hlp>main
+2 KAPITEL 4.  ODBC-Programmierung
+2 Einleitung=odbcdev@dbpide6.hlp
+3 Einführung in die ODBC-Programmierung
+3 Einleitung=odbcpgm@dbpide6.hlp
+3 ODBC-Übereinstimmung =odconf@dbpide6.hlp>main
+3 ODBC-Grundlagen
+3 Einleitung=odfund@dbpide6.hlp
+3 Eine ODBC-Anwendung kompilieren und binden =odbccl@dbpide6.hlp>main
+3 Ein erstes Beispiel =odbceg@dbpide6.hlp>main
+3 Threads in ODBC-Anwendungen =id_pi_165@dbpide6.hlp>main
+2 Fehlerüberprüfung in ODBC =odbcer@dbpide6.hlp>main
+2 Prepared-Statements in ODBC verwenden =prepared-statements-odbcdev@dbpide6.hlp>main
+2 Mit Ergebnismengen arbeiten =odbccur@dbpide6.hlp>main
+2 Gespeicherte Prozeduren in ODBC aufrufen =odbcpt@dbpide6.hlp>main
+2 Ein Beispielprogramm =odsamp@dbpide6.hlp>main
+3 ODBC ohne Treiber-Manager benutzen
+3 Einleitung=linking-odbcdev@dbpide6.hlp
+3 ODBC-Anwendungen auf UNIX entwickeln =id_pi_172@dbpide6.hlp>main
+2 KAPITEL 5.  Die Open Client-Schnittstelle
+2 Einleitung=os@dbpide6.hlp
+2 Was Sie für die Entwicklung von Open-Client-Anwendungen brauchen =oswy@dbpide6.hlp>main
+3 Datentyp-Zuordnungen
+3 Einleitung=osdt@dbpide6.hlp
+4 Datentyp-Zuordnung zwischen Open Client und dem Adaptive Server Anywhere
+4 Einleitung=id_pi_176@dbpide6.hlp
+4 Zuordnung von Adaptive Server Anywhere-Datentypen =id_pi_177@dbpide6.hlp>main
+3 Wertebereichseinschränkungen bei der Zuordnung von Datentypen =ospv@dbpide6.hlp>main
+3 Datentypen mit begrenzter Kompatibilität =id_pi_179@dbpide6.hlp>main
+3 SQL in Open-Client-Anwendungen verwenden
+3 Einleitung=using-sql-openclient@dbpide6.hlp
+3 SQL-Anweisung ausführen =id_pi_181@dbpide6.hlp>main
+3 Prepared-Statements verwenden =id_pi_182@dbpide6.hlp>main
+4 Cursor verwenden
+4 Einleitung=cursors-openclient@dbpide6.hlp
+4 Zeilen durch einen Cursor ändern =id_pi_184@dbpide6.hlp>main
+3 Abfrageergebnisse in Open Client beschreiben =id_pi_185@dbpide6.hlp>main
+3 Open Client-Ereignisbehandlung
+3 Einleitung=osev@dbpide6.hlp
+3 Standard-Ereignisbehandlung =osevst@dbpide6.hlp>main
+3 Bekannte Einschränkungen des Adaptive Server Anywhere =osg-limitations@dbpide6.hlp>main

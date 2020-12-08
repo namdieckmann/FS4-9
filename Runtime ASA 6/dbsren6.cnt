@@ -1,0 +1,564 @@
+Base dbsren6.hlp>main
+Title Test
+1 Data Replication with SQL Remote
+1 Overview=id_sr_2@dbsren6.hlp
+1 Copyright page =id_sr_3@dbsren6.hlp>main
+2 About This Manual
+2 Overview=id_sr_4@dbsren6.hlp
+2 About this Manual =id_sr_5@dbsren6.hlp>main
+3 Documentation conventions
+3 Overview=documentation-conventions-pref@dbsren6.hlp
+3 Syntax conventions =synconv@dbsren6.hlp>main
+3 Graphic icons =htgi@dbsren6.hlp>main
+3 Installed files =id_sr_9@dbsren6.hlp>main
+2 The sample database =id_sr_10@dbsren6.hlp>main
+2 PART 1 . Introduction to SQL Remote
+2 Overview=id_sr_11@dbsren6.hlp
+3 CHAPTER 1.  Welcome to SQL Remote
+3 Overview=isqlintr@dbsren6.hlp
+3 About SQL Remote =about-sql-anywhere@dbsren6.hlp>main
+4 About this manual
+4 Overview=inatm@dbsren6.hlp
+4 Platforms and products covered by this manual =id_sr_15@dbsren6.hlp>main
+4 Product installation =inprin@dbsren6.hlp>main
+4 New features in version 6.0.3
+4 Overview=new-6003-intro@dbsren6.hlp
+4 Behavior changes =behavior-603-intro@dbsren6.hlp>main
+4 Upgrade issues =upgrade-603-intro@dbsren6.hlp>main
+3 New features in version 6.0.2 =new-602-intro@dbsren6.hlp>main
+3 CHAPTER 2.  SQL Remote Replication Concepts
+3 Overview=sr-concepts@dbsren6.hlp
+4 Introduction to data replication
+4 Overview=wrintr@dbsren6.hlp
+4 Benefits of data replication =id_sr_23@dbsren6.hlp>main
+4 Challenges for replication technologies =id_sr_24@dbsren6.hlp>main
+4 Sybase replication technologies =id_sr_25@dbsren6.hlp>main
+4 SQL Remote concepts
+4 Overview=wrconc@dbsren6.hlp
+4 Consolidated and remote databases =id_sr_27@dbsren6.hlp>main
+4 Hierarchical database configurations =id_sr_28@dbsren6.hlp>main
+4 Two-way replication =id_sr_29@dbsren6.hlp>main
+4 Message-based replication =id_sr_30@dbsren6.hlp>main
+4 SQL Remote components
+4 Overview=required-components@dbsren6.hlp
+4 The data server =server-components-sr-concepts@dbsren6.hlp>main
+4 Client applications =id_sr_33@dbsren6.hlp>main
+4 The Message Agent =message-agent-components-sr-concepts@dbsren6.hlp>main
+4 Message system client =client-components-sr-concepts@dbsren6.hlp>main
+3 Publications and subscriptions =pubs-and-subs@dbsren6.hlp>main
+3 SQL Remote features =wrfeat@dbsren6.hlp>main
+4 Some sample installations
+4 Overview=wrapp@dbsren6.hlp
+4 Server-to-laptop replication for mobile workforces =wrmobile@dbsren6.hlp>main
+4 Server-to-server replication among offices =wroffice@dbsren6.hlp>main
+3 CHAPTER 3.  Setting Up SQL Remote
+3 Overview=sr-setup@dbsren6.hlp
+3 Setup overview =srs-overview@dbsren6.hlp>main
+4 Preparing your Adaptive Server Enterprise server
+4 Overview=srd-preparing@dbsren6.hlp
+4 Ensuring TEMPDB is large enough =srs-tempdb@dbsren6.hlp>main
+4 Installing SQL Remote into a database from Sybase Central =id_sr_45@dbsren6.hlp>main
+5 Command-line installation of the SQL Remote system objects
+5 Overview=id_sr_46@dbsren6.hlp
+5 The SQL Remote system objects =id_sr_47@dbsren6.hlp>main
+4 Command-line installation of the stable queue =id_sr_48@dbsren6.hlp>main
+3 Upgrading SQL Remote for Adaptive Server Enterprise =upgrading-sql-remote@dbsren6.hlp>main
+3 Uninstalling SQL Remote =uninstalling-sql-remote@dbsren6.hlp>main
+3 CHAPTER 4.  A Tutorial for Adaptive Server Anywhere Users
+3 Overview=sra-tut@dbsren6.hlp
+4 Tutorial overview
+4 Overview=sra-tut-overview@dbsren6.hlp
+4 Tutorial goals =id_sr_53@dbsren6.hlp>main
+4 The database =id_sr_54@dbsren6.hlp>main
+4 Replication goals =id_sr_55@dbsren6.hlp>main
+4 Sybase Central or command-line utilities =id_sr_56@dbsren6.hlp>main
+4 A tutorial using Sybase Central
+4 Overview=sra-tut-setup-sc@dbsren6.hlp
+4 Preparing for the Sybase Central replication tutorial =sra-tut-prepare-sc@dbsren6.hlp>main
+4 Setting up a consolidated database
+4 Overview=wrcd@dbsren6.hlp
+4 Add a SQL Remote message type =wrcdcf@dbsren6.hlp>main
+4 Add the publisher and remote user to the database =wrcdgr@dbsren6.hlp>main
+4 Add publications and subscriptions =wrcdps@dbsren6.hlp>main
+3 Set up the remote database in Sybase Central =wrsr@dbsren6.hlp>main
+4 A tutorial using Interactive SQL and DBXTRACT
+4 Overview=wrset2@dbsren6.hlp
+4 Preparing for the replication tutorial =wrpr2@dbsren6.hlp>main
+4 Set up the consolidated database
+4 Overview=wrcd2@dbsren6.hlp
+4 Create a SQL Remote message type =wrcdcf2@dbsren6.hlp>main
+4 Grant PUBLISH and REMOTE at the consolidated database =wrcdgr2@dbsren6.hlp>main
+4 Create publications and subscriptions =wrcdps2@dbsren6.hlp>main
+4 Set up the remote database
+4 Overview=wrsr2@dbsren6.hlp
+4 Extract the remote database information =wrrdcd2@dbsren6.hlp>main
+4 Load the remote database information =wrrdlf2@dbsren6.hlp>main
+4 Start replicating data
+4 Overview=sra-tut-start-rep@dbsren6.hlp
+4 Enter data at the consolidated database =id_sr_74@dbsren6.hlp>main
+4 Send data from the consolidated database =sra-tut-send@dbsren6.hlp>main
+4 Receive data at the remote database =sra-tut-received-remote@dbsren6.hlp>main
+4 Replicate from the remote database to the consolidated database =sra-tut-rep-to-con@dbsren6.hlp>main
+3 A sample publication =wrsp@dbsren6.hlp>main
+3 CHAPTER 5.  A Tutorial for Adaptive Server Enterprise Users
+3 Overview=sr-tutorial@dbsren6.hlp
+4 Introduction
+4 Overview=srt-introduction@dbsren6.hlp
+4 Tutorial goals =id_sr_81@dbsren6.hlp>main
+4 The database =ss-the-database@dbsren6.hlp>main
+4 Replication goals =id_sr_83@dbsren6.hlp>main
+4 Setting up SQL Remote using Sybase Central
+4 Overview=srt-sql-central@dbsren6.hlp
+4 First steps =id_sr_85@dbsren6.hlp>main
+4 Setting up the consolidated database
+4 Overview=srsc-setup-consolidated@dbsren6.hlp
+4 Add a SQL Remote message type =id_sr_87@dbsren6.hlp>main
+4 Create the necessary users and permissions =id_sr_88@dbsren6.hlp>main
+4 Create the publication and subscription =id_sr_89@dbsren6.hlp>main
+3 Set up the remote database in Sybase Central =id_sr_90@dbsren6.hlp>main
+4 A tutorial using isql and ssxtract
+4 Overview=srt-command-line@dbsren6.hlp
+4 First steps =id_sr_92@dbsren6.hlp>main
+4 Setting up the consolidated database
+4 Overview=srsi-setup-consolidated@dbsren6.hlp
+4 Create the message links and addresses =id_sr_94@dbsren6.hlp>main
+4 Create the necessary users and permissions =id_sr_95@dbsren6.hlp>main
+4 Create the publication and subscription =id_sr_96@dbsren6.hlp>main
+4 Extract the remote database =id_sr_97@dbsren6.hlp>main
+4 Start replicating data
+4 Overview=srs-tut-start-rep@dbsren6.hlp
+4 Enter data at the consolidated database =wrrdsd@dbsren6.hlp>main
+4 Send data from the consolidated database =id_sr_100@dbsren6.hlp>main
+4 Receive data at the remote database =id_sr_101@dbsren6.hlp>main
+4 Replicate from the remote database to the consolidated database =id_sr_102@dbsren6.hlp>main
+2 PART 2 . Replication Design for SQL Remote
+2 Overview=id_sr_103@dbsren6.hlp
+3 CHAPTER 6.  Principles of SQL Remote Design
+3 Overview=sr-design-setup@dbsren6.hlp
+4 Design overview
+4 Overview=srd-overview@dbsren6.hlp
+4 Ensuring compatible databases =id_sr_106@dbsren6.hlp>main
+4 Using compatible sort orders and character sets =id_sr_107@dbsren6.hlp>main
+4 How statements are replicated
+4 Overview=wrss@dbsren6.hlp
+4 Replication of inserts and deletes =wrid@dbsren6.hlp>main
+4 Replication of updates =wrud@dbsren6.hlp>main
+4 Replication of procedures =wrpt@dbsren6.hlp>main
+4 Replication of triggers =wrtrig@dbsren6.hlp>main
+4 Replication of data definition statements =wrddl@dbsren6.hlp>main
+4 How data types are replicated
+4 Overview=datatype-replication-sr-design@dbsren6.hlp
+4 Replication of blobs =replication-of-long-values@dbsren6.hlp>main
+4 Replication of dates and times =dates-rep-how-sr-design@dbsren6.hlp>main
+3 Who gets what? =who-gets-what@dbsren6.hlp>main
+4 Replication errors and conflicts
+4 Overview=sra-error-overview@dbsren6.hlp
+4 Replication errors =id_sr_119@dbsren6.hlp>main
+4 Replication conflicts =id_sr_120@dbsren6.hlp>main
+4 Tracking SQL errors =id_sr_121@dbsren6.hlp>main
+3 CHAPTER 7.  SQL Remote Design for Adaptive Server Anywhere
+3 Overview=sra-design@dbsren6.hlp
+3 Design overview =srad-overview@dbsren6.hlp>main
+4 Creating publications
+4 Overview=sra-simple-pubications@dbsren6.hlp
+4 Creating publications for Adaptive Server Anywhere using Sybase Central =id_sr_125@dbsren6.hlp>main
+4 Publishing a whole table =id_sr_126@dbsren6.hlp>main
+4 Publishing some of the columns in a table =id_sr_127@dbsren6.hlp>main
+4 Publishing a set of tables =wrpbst@dbsren6.hlp>main
+5 Publishing some of the rows from a table
+5 Overview=sra-publishing-rows@dbsren6.hlp
+5 Publishing a subset of rows using a WHERE clause =wrpbwh@dbsren6.hlp>main
+5 Publishing a subset of rows using a subscription expression =wrpbxp@dbsren6.hlp>main
+4 Dropping publications =wrpbap@dbsren6.hlp>main
+4 Notes on publications =wrpbnp@dbsren6.hlp>main
+4 Publication design for Adaptive Server Anywhere
+4 Overview=sra-designing-pubs@dbsren6.hlp
+4 Design issues overview =id_sr_135@dbsren6.hlp>main
+4 Conditions for valid articles =sra-valid-articles@dbsren6.hlp>main
+4 Design tips for performance =performance-publication-sra-design@dbsren6.hlp>main
+4 Partitioning tables that do not contain the subscription expression
+4 Overview=sra-subquery@dbsren6.hlp
+4 The Contact example =id_sr_139@dbsren6.hlp>main
+4 Partitioning the Customer table in the Contact example =id_sr_140@dbsren6.hlp>main
+4 Partitioning the Contact table in the Contact example =id_sr_141@dbsren6.hlp>main
+4 Territory realignment in the Contact example =territory-realignment-subquery@dbsren6.hlp>main
+4 Sharing rows among several subscriptions
+4 Overview=sra-sharing@dbsren6.hlp
+5 The Policy example
+5 Overview=id_sr_144@dbsren6.hlp
+5 The publication =id_sr_145@dbsren6.hlp>main
+4 Territory realignment with a many-to-many relationship =reassigning-3@dbsren6.hlp>main
+4 Using the Subscribe_by_remote option with many-to-many relationships =using-subscribe-by-remote@dbsren6.hlp>main
+4 Managing conflicts
+4 Overview=sra-update-conflicts@dbsren6.hlp
+4 How SQL Remote handles conflicts =sra-handling-conflicts@dbsren6.hlp>main
+4 Implementing conflict resolution =sra-implementing-conflict-resolution@dbsren6.hlp>main
+4 Using conflict resolution triggers =wrchrt@dbsren6.hlp>main
+5 Conflict resolution examples
+5 Overview=wrchex@dbsren6.hlp
+5 Resolving date conflicts =id_sr_153@dbsren6.hlp>main
+5 Resolving inventory conflicts =id_sr_154@dbsren6.hlp>main
+5 Reporting conflicts =id_sr_155@dbsren6.hlp>main
+4 Designing to avoid referential integrity errors =sra-avoid-ref-integ@dbsren6.hlp>main
+4 Designing triggers to avoid errors =wrdppt@dbsren6.hlp>main
+4 Ensuring unique primary keys
+4 Overview=sra-ensuring-unique-primary-keys@dbsren6.hlp
+4 The primary key pool =id_sr_159@dbsren6.hlp>main
+4 Replicating the primary key pool =id_sr_160@dbsren6.hlp>main
+4 Filling and replenishing the key pool =id_sr_161@dbsren6.hlp>main
+4 Adding new customers =id_sr_162@dbsren6.hlp>main
+4 Primary key pool summary =id_sr_163@dbsren6.hlp>main
+3 Creating subscriptions =sra-set-subs@dbsren6.hlp>main
+3 CHAPTER 8.  SQL Remote Design for Adaptive Server Enterprise
+3 Overview=srs-design@dbsren6.hlp
+3 Design overview =srsd-overview@dbsren6.hlp>main
+4 Creating publications
+4 Overview=srd-simple-pubications@dbsren6.hlp
+4 Creating publications for Adaptive Server Enterprise using Sybase Central =id_sr_168@dbsren6.hlp>main
+4 Creating whole-table articles =id_sr_169@dbsren6.hlp>main
+4 Creating articles containing some of the columns in a table =id_sr_170@dbsren6.hlp>main
+5 Creating articles containing some of the rows in a table
+5 Overview=srs-publishing-rows@dbsren6.hlp
+5 Creating an article using a WHERE clause =id_sr_172@dbsren6.hlp>main
+5 Creating an article using a subscription column =id_sr_173@dbsren6.hlp>main
+4 Notes on articles =id_sr_174@dbsren6.hlp>main
+4 Publication design for Adaptive Server Enterprise
+4 Overview=srsd-designing-publications@dbsren6.hlp
+4 Design issues overview =id_sr_176@dbsren6.hlp>main
+4 Conditions for valid articles =srs-valid-articles@dbsren6.hlp>main
+4 Partitioning tables that do not contain the subscription column
+4 Overview=srs-partitioning@dbsren6.hlp
+4 The Contact example =id_sr_179@dbsren6.hlp>main
+4 Territory realignment in the Contact example =srs-territory-realignment-contact@dbsren6.hlp>main
+4 Partitioning the Customer table in the Contact example =id_sr_181@dbsren6.hlp>main
+4 Adding a subscription-list column to the Contact table =adding-sublist-srs-design@dbsren6.hlp>main
+4 Maintaining the subscription-list column =id_sr_183@dbsren6.hlp>main
+4 Tuning extraction performance =tuning-partitioning-srs-design@dbsren6.hlp>main
+4 Sharing rows among several subscriptions
+4 Overview=srs-sharing@dbsren6.hlp
+5 The Policy example
+5 Overview=id_sr_186@dbsren6.hlp
+5 Solving the problem =id_sr_187@dbsren6.hlp>main
+5 The publication =id_sr_188@dbsren6.hlp>main
+4 Maintaining the subscription-list column =id_sr_189@dbsren6.hlp>main
+4 Tuning extraction performance for shared rows =tuning-sharing-srs-design@dbsren6.hlp>main
+4 Using the Subscribe_by_remote option with many-to-many relationships =srs-using-subscribe-by-remote@dbsren6.hlp>main
+4 Managing conflicts
+4 Overview=srs-update-conflicts@dbsren6.hlp
+4 How SQL Remote handles conflicts =srs-handling-conflicts@dbsren6.hlp>main
+4 Implementing conflict resolution =srs-implementing-conflict-resolution@dbsren6.hlp>main
+4 A first conflict resolution example =a-first-conflict-resolution-example@dbsren6.hlp>main
+4 A second conflict resolution example =id_sr_196@dbsren6.hlp>main
+4 Designing to avoid referential integrity errors =srs-avoid-ref-integ@dbsren6.hlp>main
+4 Ensuring unique primary keys
+4 Overview=srs-ensuring-unique-primary-keys@dbsren6.hlp
+4 The primary key pool =id_sr_199@dbsren6.hlp>main
+4 Replicating the primary key pool =id_sr_200@dbsren6.hlp>main
+4 Filling and replenishing the key pool =id_sr_201@dbsren6.hlp>main
+4 Adding new customers =id_sr_202@dbsren6.hlp>main
+4 Testing the key pool =id_sr_203@dbsren6.hlp>main
+4 Primary key pool summary =id_sr_204@dbsren6.hlp>main
+3 Creating subscriptions =srs-creating-subscriptions@dbsren6.hlp>main
+2 PART 3 . SQL Remote Administration
+2 Overview=id_sr_206@dbsren6.hlp
+3 CHAPTER 9.  Deploying and Synchronizing Databases
+3 Overview=sr-deploy@dbsren6.hlp
+3 Deployment overview =sr-deployment-overview@dbsren6.hlp>main
+4 Test before deployment
+4 Overview=srd-test-before-deploy@dbsren6.hlp
+4 Changes to avoid on a running system =id_sr_210@dbsren6.hlp>main
+4 Synchronizing databases
+4 Overview=sr-synch@dbsren6.hlp
+4 Mixed operating systems and database extraction =id_sr_212@dbsren6.hlp>main
+4 Notes on synchronization and extraction =sra-sync-notes@dbsren6.hlp>main
+4 Using the extraction utility
+4 Overview=sr-extract-util@dbsren6.hlp
+4 Creating a database from the reload files =id_sr_215@dbsren6.hlp>main
+4 Before extracting a database =id_sr_216@dbsren6.hlp>main
+4 Using the extraction utility from Sybase Central =id_sr_217@dbsren6.hlp>main
+4 Designing an efficient extraction procedure =sr-custom-extract@dbsren6.hlp>main
+4 Extracting groups =extracting-groups-sr-deploy@dbsren6.hlp>main
+4 Limits to using the extraction utility =sra-extract-limits@dbsren6.hlp>main
+5 Using the extraction utility for Adaptive Server Enterprise
+5 Overview=using-ssxtract@dbsren6.hlp
+5 Adaptive Server Enterprise features unsupported in Adaptive Server Anywhere =id_sr_222@dbsren6.hlp>main
+5 Customizing the system tables =id_sr_223@dbsren6.hlp>main
+3 Synchronizing data over a message system =sra-sync-msg@dbsren6.hlp>main
+3 CHAPTER 10.  SQL Remote Administration
+3 Overview=sr-admin@dbsren6.hlp
+3 Management overview =wras@dbsren6.hlp>main
+4 Managing SQL Remote permissions
+4 Overview=sr-managing-perms@dbsren6.hlp
+4 Granting and revoking PUBLISH permissions =id_sr_228@dbsren6.hlp>main
+5 Granting and revoking REMOTE and CONSOLIDATE permissions
+5 Overview=wrmpse@dbsren6.hlp
+5 Granting REMOTE permissions =id_sr_230@dbsren6.hlp>main
+5 Selecting a send frequency =selecting-a-send-frequency@dbsren6.hlp>main
+5 Granting CONSOLIDATE permissions =id_sr_232@dbsren6.hlp>main
+5 Revoking REMOTE and CONSOLIDATE permissions =id_sr_233@dbsren6.hlp>main
+4 Assigning permissions in multi-tier installations =id_sr_234@dbsren6.hlp>main
+4 Using message types
+4 Overview=srd-selecting-message@dbsren6.hlp
+5 Working with message types
+5 Overview=sr-message-types@dbsren6.hlp
+5 Using Sybase Central to work with message types =id_sr_237@dbsren6.hlp>main
+5 Using commands to work with message types =id_sr_238@dbsren6.hlp>main
+4 Setting message type control parameters =message-link-parameters@dbsren6.hlp>main
+4 The file message system =sr-file@dbsren6.hlp>main
+5 The ftp message system
+5 Overview=ftp-message-system@dbsren6.hlp
+5 Troubleshooting ftp problems =troubleshooting-ftp-sr-admin@dbsren6.hlp>main
+5 The SMTP message system
+5 Overview=sr-smtp@dbsren6.hlp
+5 Sharing SMTP/POP addresses =id_sr_244@dbsren6.hlp>main
+4 The MAPI message system =sr-mapi@dbsren6.hlp>main
+4 The VIM message system =sr-vim@dbsren6.hlp>main
+4 Running the Message Agent
+4 Overview=wrma@dbsren6.hlp
+4 Message Agent batch and continuous modes =id_sr_248@dbsren6.hlp>main
+4 Connections used by the Message Agent =connections-running-sr-admin@dbsren6.hlp>main
+4 Replication system recovery procedures =id_sr_250@dbsren6.hlp>main
+4 Ensuring consistent Message Agent settings =id_sr_251@dbsren6.hlp>main
+4 The Message Agent and replication security =ss-ma-rep-security@dbsren6.hlp>main
+4 Tuning Message Agent performance
+4 Overview=tuning-sr-admin@dbsren6.hlp
+4 Tuning throughput by controlling Message Agent threading =threading-tuning-sr-admin@dbsren6.hlp>main
+4 Tuning throughput by caching messages =caching-running-sr-admin@dbsren6.hlp>main
+5 Tuning incoming message polling
+5 Overview=polling-running-sr-admin@dbsren6.hlp
+5 Polling interval =id_sr_257@dbsren6.hlp>main
+5 Requesting resends =id_sr_258@dbsren6.hlp>main
+5 Example =id_sr_259@dbsren6.hlp>main
+5 Tuning the message sending process
+5 Overview=tuning-send-sr-admin@dbsren6.hlp
+5 Polling interval =id_sr_261@dbsren6.hlp>main
+5 Resending messages =id_sr_262@dbsren6.hlp>main
+4 Encoding and compressing messages
+4 Overview=encoding-sr-admin@dbsren6.hlp
+4 The encoding scheme =id_sr_264@dbsren6.hlp>main
+4 Creating custom encoding schemes =id_sr_265@dbsren6.hlp>main
+4 The message tracking system
+4 Overview=wrmt@dbsren6.hlp
+4 Status information in the remoteuser table =wrmtst@dbsren6.hlp>main
+4 Tracking messages by transaction log offsets =wrmttm@dbsren6.hlp>main
+4 Handling of lost or corrupt messages =wrmtrm@dbsren6.hlp>main
+3 CHAPTER 11.  Administering SQL Remote for Adaptive Server Anywhere
+3 Overview=sra-admin@dbsren6.hlp
+4 Running the Message Agent
+4 Overview=sra-running-message-agent@dbsren6.hlp
+4 Starting the Message Agent =id_sr_272@dbsren6.hlp>main
+4 Running the Message Agent as a service =id_sr_273@dbsren6.hlp>main
+4 The Message Agent and replication security =wrmase@dbsren6.hlp>main
+4 Error reporting and handling
+4 Overview=wrchrp@dbsren6.hlp
+4 Default error handling =default-error-sra-admin@dbsren6.hlp>main
+4 Ignoring errors =ignoring-error-sra-admin@dbsren6.hlp>main
+5 Implementing error handling procedures
+5 Overview=implementing-error-sra-admin@dbsren6.hlp
+5 Example: e-mailing notification of errors =id_sr_279@dbsren6.hlp>main
+4 Transaction log and backup management
+4 Overview=sra-tranlog-backup@dbsren6.hlp
+4 Setting the transaction log directory =id_sr_281@dbsren6.hlp>main
+5 Backup utility options
+5 Overview=id_sr_282@dbsren6.hlp
+5 Using the live directory as the transaction log directory =id_sr_283@dbsren6.hlp>main
+5 Using the backup directory as the transaction log directory =id_sr_284@dbsren6.hlp>main
+4 Managing old transaction logs =wrtldl@dbsren6.hlp>main
+5 Recovery from database media failure for consolidated databases
+5 Overview=id_sr_286@dbsren6.hlp
+5 Recovery with a single transaction log =id_sr_287@dbsren6.hlp>main
+5 Recovery with multiple transaction logs =id_sr_288@dbsren6.hlp>main
+4 Backup procedures at remote databases =wrtlrd@dbsren6.hlp>main
+4 Upgrading consolidated databases =id_sr_290@dbsren6.hlp>main
+4 Unloading and reloading a consolidated database =wrtluu@dbsren6.hlp>main
+4 Using passthrough mode
+4 Overview=sra-using-passthrough@dbsren6.hlp
+4 Uses and limitations of passthrough mode =sra-passthrough-limits@dbsren6.hlp>main
+4 Operations not replicated in passthrough mode =id_sr_294@dbsren6.hlp>main
+3 CHAPTER 12.  Administering SQL Remote for Adaptive Server Enterprise
+3 Overview=srs-admin@dbsren6.hlp
+4 How the Message Agent for Adaptive Server Enterprise works
+4 Overview=ss-how-message-agent-works@dbsren6.hlp
+4 Scanning the transaction log =id_sr_297@dbsren6.hlp>main
+4 The stable queue =ss-sq@dbsren6.hlp>main
+4 Message Agent operation phases =ss-message-agent-operation@dbsren6.hlp>main
+4 Running the Message Agent
+4 Overview=ss-running-the-message-agent@dbsren6.hlp
+4 The Message Agent and replication security =id_sr_301@dbsren6.hlp>main
+4 Running multiple Message Agents =running-multiple-agents@dbsren6.hlp>main
+4 Error reporting and handling
+4 Overview=srs-error-handling@dbsren6.hlp
+4 Default error handling =default-error-srs-admin@dbsren6.hlp>main
+4 Implementing error handling procedures =implementing-error-srs-admin@dbsren6.hlp>main
+4 Adaptive Server Enterprise transaction log and backup management
+4 Overview=ss-tranlog-backup@dbsren6.hlp
+4 Protecting against media failure on the transaction log =id_sr_307@dbsren6.hlp>main
+4 Stable queue recovery issues =stable-queue-recovery@dbsren6.hlp>main
+4 Transaction log management =ss-log-management@dbsren6.hlp>main
+3 Making schema changes =srs-making-schema-changes@dbsren6.hlp>main
+4 Using passthrough mode
+4 Overview=ss-passthrough@dbsren6.hlp
+4 Schema modifications =ss-schema-modifications@dbsren6.hlp>main
+3 CHAPTER 13.  Using SQL Remote with Replication Server
+3 Overview=ssqueue@dbsren6.hlp
+3 When you need to use the SQL Remote Open Server =overview-ssqueue@dbsren6.hlp>main
+4 Architecture for Replication Server/SQL Remote installations
+4 Overview=architecture-ssqueue@dbsren6.hlp
+4 How the pieces fit together =id_sr_316@dbsren6.hlp>main
+3 Setting up SQL Remote Open Server =setup-ssqueue@dbsren6.hlp>main
+4 Configuring Replication Server
+4 Overview=rs-ssqueue@dbsren6.hlp
+4 Set the dsi_xact_group_size parameter =id_sr_319@dbsren6.hlp>main
+4 Set the dsi_num_threads parameter =id_sr_320@dbsren6.hlp>main
+4 Create replication definitions for SQL Remote data =id_sr_321@dbsren6.hlp>main
+4 Suspend and restart the connection =id_sr_322@dbsren6.hlp>main
+3 Other issues =other-ssqueue@dbsren6.hlp>main
+2 PART 4 . Reference
+2 Overview=id_sr_324@dbsren6.hlp
+3 CHAPTER 14.  Utilities and Options Reference
+3 Overview=sr-utils@dbsren6.hlp
+3 The Message Agent =dbrem@dbsren6.hlp>main
+4 The Database Extraction utility
+4 Overview=dbxt@dbsren6.hlp
+4 Extracting a remote database in Sybase Central =dbxtsc@dbsren6.hlp>main
+4 The extraction command-line utility =dbxtract@dbsren6.hlp>main
+4 Extraction utility options =dbxtop@dbsren6.hlp>main
+3 The SQL Remote Open Server =sros-utils@dbsren6.hlp>main
+3 SQL Remote options =sr-options@dbsren6.hlp>main
+3 CHAPTER 15.  System Objects for Adaptive Server Anywhere
+3 Overview=sra-tables@dbsren6.hlp
+4 SQL Remote system tables
+4 Overview=sql-remote-tables@dbsren6.hlp
+4 SYSARTICLE table =sysarticle-sra@dbsren6.hlp>main
+4 SYSARTICLECOL table =sysarticlecol-sra@dbsren6.hlp>main
+4 SYSPUBLICATION table =syspublication-sra@dbsren6.hlp>main
+4 SYSREMOTEOPTION table =sysremoteoption-table@dbsren6.hlp>main
+4 SYSREMOTEOPTIONTYPE table =sysremoteoptiontype-table@dbsren6.hlp>main
+4 SYSREMOTETYPE table =sysremotetype-sra@dbsren6.hlp>main
+4 SYSREMOTEUSER table =sysremoteuser-sra@dbsren6.hlp>main
+4 SYSSUBSCRIPTION table =syssubscription-sra@dbsren6.hlp>main
+4 SQL Remote system views
+4 Overview=sql-remote-views@dbsren6.hlp
+4 SYSARTICLES view =sysarticles-sra@dbsren6.hlp>main
+4 SYSARTICLECOLS view =sysarticlecols-sra@dbsren6.hlp>main
+4 SYSPUBLICATIONS view =syspublications-sra@dbsren6.hlp>main
+4 SYSREMOTEOPTIONS view =sysremoteoptions-view@dbsren6.hlp>main
+4 SYSREMOTEUSERS view =sysremoteusers-sra@dbsren6.hlp>main
+4 SYSSUBSCRIPTIONS view =syssubscriptions-sra@dbsren6.hlp>main
+3 CHAPTER 16.  System Objects for Adaptive Server Enterprise
+3 Overview=sr-tables@dbsren6.hlp
+4 SQL Remote system tables
+4 Overview=id_sr_351@dbsren6.hlp
+4 #remote table =id_sr_352@dbsren6.hlp>main
+4 sr_article table =sr-article@dbsren6.hlp>main
+4 sr_articlecol table =sr-articlecol@dbsren6.hlp>main
+4 sr_marker table =sr-marker@dbsren6.hlp>main
+4 sr_object table =sr-object@dbsren6.hlp>main
+4 sr_option table =sr-option@dbsren6.hlp>main
+4 sr_passthrough table =sr-passthrough@dbsren6.hlp>main
+4 sr_publication table =sr-publication@dbsren6.hlp>main
+4 sr_publisher table =sr-publisher@dbsren6.hlp>main
+4 sr_remotetable table =sr-remotetable@dbsren6.hlp>main
+4 sr_remotetype table =sr-remotetype@dbsren6.hlp>main
+4 sr_remoteuser table =sr-remoteuser@dbsren6.hlp>main
+4 sr_subscription table =sr-subscription@dbsren6.hlp>main
+4 SQL Remote system views
+4 Overview=id_sr_365@dbsren6.hlp
+4 sr_articles view =sr-articles@dbsren6.hlp>main
+4 sr_articlecols view =sr-articlecols@dbsren6.hlp>main
+4 sr_publications view =sr-publications@dbsren6.hlp>main
+4 sr_remotetables view =sr-remotetables@dbsren6.hlp>main
+4 sr_remotetypes view =sr-remotetypes@dbsren6.hlp>main
+4 sr_remoteusers view =sr-remoteusers@dbsren6.hlp>main
+4 sr_subscriptions view =sr-subscriptions@dbsren6.hlp>main
+4 Stable Queue tables
+4 Overview=stable-queue-tables@dbsren6.hlp
+4 sr_queue_state table =sr-queue-state@dbsren6.hlp>main
+4 sr_transaction table =sr-transaction@dbsren6.hlp>main
+4 sr_confirmed_transaction table =sr-confirmed-transaction@dbsren6.hlp>main
+4 sr_queue_coordinate table =sr-queue-cordinate@dbsren6.hlp>main
+3 CHAPTER 17.  Command Reference for Adaptive Server Anywhere
+3 Overview=sr-sa-ref@dbsren6.hlp
+3 ALTER PUBLICATION statement =alpub@dbsren6.hlp>main
+3 ALTER REMOTE MESSAGE TYPE statement =almsg@dbsren6.hlp>main
+3 CREATE PUBLICATION statement =crpub@dbsren6.hlp>main
+3 CREATE REMOTE MESSAGE TYPE statement =crmsg@dbsren6.hlp>main
+3 CREATE SUBSCRIPTION statement =crsub@dbsren6.hlp>main
+3 CREATE TRIGGER statement =creatrg@dbsren6.hlp>main
+3 DROP PUBLICATION statement =drpub@dbsren6.hlp>main
+3 DROP REMOTE MESSAGE TYPE statement =drmsg@dbsren6.hlp>main
+3 DROP SUBSCRIPTION statement =drsub@dbsren6.hlp>main
+3 GRANT CONSOLIDATE statement =grcon@dbsren6.hlp>main
+3 GRANT PUBLISH statement =grpub@dbsren6.hlp>main
+3 GRANT REMOTE statement =grrem@dbsren6.hlp>main
+3 GRANT REMOTE DBA statement =grant-remtoe-dba-sr-sa-ref@dbsren6.hlp>main
+3 PASSTHROUGH statement =passthr@dbsren6.hlp>main
+3 REMOTE RESET statement =remote-reset@dbsren6.hlp>main
+3 REVOKE CONSOLIDATE statement =recon@dbsren6.hlp>main
+3 REVOKE PUBLISH statement =repub@dbsren6.hlp>main
+3 REVOKE REMOTE statement =rerem@dbsren6.hlp>main
+3 REVOKE REMOTE DBA statement =revoke-remote-dba-sr-sa-ref@dbsren6.hlp>main
+3 SET REMOTE OPTION statement =set-remote-option@dbsren6.hlp>main
+3 START SUBSCRIPTION statement =startsub@dbsren6.hlp>main
+3 STOP SUBSCRIPTION statement =stopsub@dbsren6.hlp>main
+3 SYNCHRONIZE SUBSCRIPTION statement =syncsub@dbsren6.hlp>main
+3 UPDATE statement =update@dbsren6.hlp>main
+3 CHAPTER 18.  Command Reference for Adaptive Server Enterprise
+3 Overview=sr-ss-ref@dbsren6.hlp
+3 sp_add_article procedure =sp-add-article@dbsren6.hlp>main
+3 sp_add_article_col procedure =sp-add-article-col@dbsren6.hlp>main
+3 sp_add_remote_table procedure =sp-add-remote-table@dbsren6.hlp>main
+3 sp_create_publication procedure =sp-create-publication@dbsren6.hlp>main
+3 sp_drop_publication procedure =sp-drop-publication@dbsren6.hlp>main
+3 sp_drop_remote_type procedure =sp-drop-remote-type@dbsren6.hlp>main
+3 sp_drop_sql_remote procedure =sp-drop-sql-remote@dbsren6.hlp>main
+3 sp_grant_consolidate procedure =sp-grant-consolidate@dbsren6.hlp>main
+3 sp_grant_remote procedure =sp-grant-remote@dbsren6.hlp>main
+3 sp_link_option procedure =sp-link-option-procedure@dbsren6.hlp>main
+3 sp_modify_article procedure =sp-modify-article@dbsren6.hlp>main
+3 sp_modify_remote_table procedure =sp-modify-remote-table@dbsren6.hlp>main
+3 sp_passthrough procedure =sp-passthrough@dbsren6.hlp>main
+3 sp_passthrough_piece procedure =sp-passthrough-piece@dbsren6.hlp>main
+3 sp_passthrough_stop procedure =sp-passthrough-stop@dbsren6.hlp>main
+3 sp_passthrough_subscription procedure =sp-passthrough-subscription@dbsren6.hlp>main
+3 sp_passthrough_user procedure =sp-passthrough-user@dbsren6.hlp>main
+3 sp_populate_sql_anywhere procedure =sp-populate-sql-anywhere@dbsren6.hlp>main
+3 sp_publisher procedure =sp-publisher@dbsren6.hlp>main
+3 sp_queue_clean procedure =sp-queue-clean@dbsren6.hlp>main
+3 sp_queue_confirmed_delete_old procedure =sp-queue-confirmed-delete-old@dbsren6.hlp>main
+3 sp_queue_confirmed_transaction procedure =id_sr_425@dbsren6.hlp>main
+3 sp_queue_delete_old procedure =sp-queue-delete-old@dbsren6.hlp>main
+3 sp_queue_drop procedure =sp-queue-drop@dbsren6.hlp>main
+3 sp_queue_dump_database procedure =sp-queue-dump-database@dbsren6.hlp>main
+3 sp_queue_dump_transaction procedure =sp-queue-dump-transaction@dbsren6.hlp>main
+3 sp_queue_get_state procedure =sp-queue-get-state@dbsren6.hlp>main
+3 sp_queue_log_transfer_reset procedure =id_sr_431@dbsren6.hlp>main
+3 sp_queue_read procedure =sp-queue-read@dbsren6.hlp>main
+3 sp_queue_reset procedure =sp-queue-reset@dbsren6.hlp>main
+3 sp_queue_set_confirm procedure =sp-queue-set-confirm@dbsren6.hlp>main
+3 sp_queue_set_progress procedure =sp-queue-set-progress@dbsren6.hlp>main
+3 sp_queue_transaction procedure =sp-queue-transaction@dbsren6.hlp>main
+3 sp_remote procedure =sp-remote@dbsren6.hlp>main
+3 sp_remote_option procedure =sp-remote-option@dbsren6.hlp>main
+3 sp_remote_type procedure =sp-remote-type@dbsren6.hlp>main
+3 sp_remove_article procedure =sp-remove-article@dbsren6.hlp>main
+3 sp_remove_article_col procedure =sp-remove-article-col@dbsren6.hlp>main
+3 sp_remove_remote_table procedure =sp-remove-remote-table@dbsren6.hlp>main
+3 sp_revoke_consolidate procedure =sp-revoke-consolidate@dbsren6.hlp>main
+3 sp_revoke_remote procedure =sp-revoke-remote@dbsren6.hlp>main
+3 sp_subscription procedure =sp-subscription@dbsren6.hlp>main
+3 sp_subscription_reset procedure =sp-subscription-reset@dbsren6.hlp>main
+2 PART 5 . Appendix
+2 Overview=id_sr_447@dbsren6.hlp
+3 APPENDIX A.  Enterprise and Anywhere: Differences
+3 Overview=diffs@dbsren6.hlp
+3 Types of difference =types-srdiff@dbsren6.hlp>main
+3 Differences in functionality =functionality-srdiff@dbsren6.hlp>main
+4 Differences in approach
+4 Overview=approach-srdiff@dbsren6.hlp
+4 Adaptive Server Enterprise procedures and Adaptive Server Anywhere statements =id_sr_452@dbsren6.hlp>main
+3 Limitations for Enterprise to Enterprise replication =ase-limits-srdiff@dbsren6.hlp>main
+3 APPENDIX B.  Supported Platforms and Message Links
+3 Overview=platforms@dbsren6.hlp
+3 Supported message systems =supported-message-platforms@dbsren6.hlp>main
+3 Supported operating systems =supported-os-platforms@dbsren6.hlp>main

@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "fs4.pbt";
+@end;
+DefaultTarget "fs4.pbt";
+DefaultRemoteTarget "fs4.pbt";
